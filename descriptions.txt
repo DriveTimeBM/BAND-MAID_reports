@@ -45,10 +45,10 @@ Total Streams by Song.pdf Total steams of all content by song across YouTube, Sp
 Top Wikipedia Days ZH.pdf Top BAND-MAID Days for the Chinese Wikipedia
 Top Wikipedia Days JA.pdf Top BAND-MAID Days for the Japanese Wikipedia
 Top Wikipedia Days EN.pdf Top BAND-MAID Days for the English Wikipedia
-Top Reactions By Reactor sorted by views.pdf
+Top Reactions By Reactor sorted by views.pdf Grouped by reaction channel and sorted by views
 Top Reaction Videos by Song.pdf Most viewed reaction videos for each song
 Top Google Trends.pdf (needs updated)
-Thrill Comments by Day.pdf
+Thrill Comments by Day.pdf Number of new comment on the Thrill OMV by day
 Spotify vs YouTube Daily Audio Streams.pdf Sorted by relative perfomance of YouTube (audioonly) daily streams  vs. Spotify daily streams. YT # is previous day. Spotify # is avg of
 Spotify vs YouTube Audio Streams.pdf Sorted by YouTube (audio only) total streams vs. Spotify Total Streams 
 Spotify Song Streams.pdf Number of song streams on Spotify. Each song updated once per week.
@@ -76,7 +76,7 @@ Songs with Bass Solos.pdf List of songs with bass solos. Subjective and somewhat
 Songs Played by Year.pdf Song live play counts grouped by year 
 Songs Played by Year Summary.pdf Number of different songs played by year 
 Songs Encyclopedia.pdf Lots of info about every Band-Maid song
-Songs Debuts by Venue.pdf
+Songs Debuts by Venue.pdf Song debuts grouped by venue
 Songs Debuted Live.pdf List of known songs that were played live prior to release 
 Songs by Release Date.pdf Cronological list of songs
 Songs by Most Recent Live Performance.pdf
@@ -97,16 +97,14 @@ Ready to Rock - 3 versions.pdf A look at the 4 versions in one report. MV, Anime
 ReactionVideoIds.txt Text file containing all BAND-MAID video ids
 Reaction Views by Channel.pdf Total reaction views for each YT channel 
 Reaction Videos By Year.pdf Number of new reaction videos by year 
-Reaction Videos by Song.pdf
+Reaction Videos by Song.pdf Videos grouped by song and sorted by views
 Reaction Videos by Channel.pdf Total reaction videos for each YT channel 
 Reaction Video Statistics.pdf Total reaction channels, total reaction videos, and total reaction views.
 Reaction Playlists.pdf List of Haro Matsu's playlists on YouTube
 Reaction Avg Views by Channel.pdf Average reaction views for each YT channel 
-R2R Comments.pdf 
 Prime Self-Covers.pdf All Prime self-covers grouped by song and sorted by member
 Prime Self-Covers by Song.pdf All Prime self-covers grouped by member and sorted by song
 Pirated YouTube Videos.pdf Playlist of "pirated" videos on YouTube maintained by @Alex_8964. The report reflects the contents of that list. I have not verified it.
-Pirated YouTube Videos with Links.pdf
 OKYUJI by Venue.pdf All OKYUJI grouped by venue
 Next Million.txt Cosest song to next million updated 6 times per day
 Next Million Projection.pdf Projection of the next video to reach a million milestone, updated every hour on the half hour. Useful for estimating time when it gets within a couple of days
