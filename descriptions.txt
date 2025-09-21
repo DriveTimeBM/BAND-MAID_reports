@@ -46,8 +46,8 @@ Top Wikipedia Days ZH.pdf Top BAND-MAID Days for the Chinese Wikipedia
 Top Wikipedia Days JA.pdf Top BAND-MAID Days for the Japanese Wikipedia
 Top Wikipedia Days EN.pdf Top BAND-MAID Days for the English Wikipedia
 Top Reactions By Reactor sorted by views.pdf
-Top Reaction Videos by Song.pdf
-Top Google Trends.pdf
+Top Reaction Videos by Song.pdf Most viewed reaction videos for each song
+Top Google Trends.pdf (needs updated)
 Thrill Comments by Day.pdf
 Spotify vs YouTube Daily Audio Streams.pdf Sorted by relative perfomance of YouTube (audioonly) daily streams  vs. Spotify daily streams. YT # is previous day. Spotify # is avg of
 Spotify vs YouTube Audio Streams.pdf Sorted by YouTube (audio only) total streams vs. Spotify Total Streams 
@@ -82,7 +82,6 @@ Songs by Release Date.pdf Cronological list of songs
 Songs by Most Recent Live Performance.pdf
 Songs by Most Recent Live Debut.pdf All live debuts from most recent back
 Songs by Alt Arrangements.pdf Arrangement combos
-Song Sorter Detailed Data.pdf
 Song Reaction Top Reactor Summary.pdf Top reaactions per song grouped by reactor
 Song Reaction Summary.pdf Summary ordered by most reacted to songs
 Song Reaction Leaderboard.pdf Number of songs for each reaction channel where their reaction has the most views of all reactions to that song.
@@ -91,12 +90,11 @@ Song Durations.pdf Songs sorted by duration (from Spotify data)
 Song Counts by Country.pdf Live song counts grouped by country
 Social Media.pdf Follower counts on various social media platforms. Updated on Mondays only
 Shazam Top Tracks.pdf Top tracks as reported by Shazam
-rZ1mpH8iXQc.pdf
-Ryan Mear BAND-MAID Videos.pdf
+rZ1mpH8iXQc.pdf Daily YT stats for the Alive-or-Dead audio track
 Release Notes and Quotes Report.pdf Collection of band quotes organized by release
 Related Artists - Spotify.pdf Spotify stats for some peer bands.
 Ready to Rock - 3 versions.pdf A look at the 4 versions in one report. MV, Anime MV, and Audio 
-ReactionVideoIds.txt
+ReactionVideoIds.txt Text file containing all BAND-MAID video ids
 Reaction Views by Channel.pdf Total reaction views for each YT channel 
 Reaction Videos By Year.pdf Number of new reaction videos by year 
 Reaction Videos by Song.pdf
@@ -117,45 +115,44 @@ New Reactors by Year Summary.pdf Number of new reactors by year
 New Reactors by Month.pdf New reactors in chronological order
 New Reactors by Month Summary.pdf Number of new reactors by month
 Music Credits by Song.pdf Music writing credits for each studio song
-Most Viewed Reactions.pdf
+Most Viewed Reactions.pdf Most watched BAND-MAID Reaction videos of all-time
 Most Popular Video By Reactor.pdf The most popular video for each reactor
-Most Liked Videos.pdf
-Most Liked Reactions.pdf
-Most Commented Videos.pdf
-Most Commented Reactions.pdf
+Most Liked Videos.pdf All BAND-MAID videos listed by comment count
+Most Liked Reactions.pdf Reaction videos with the most likes
+Most Commented Videos.pdf All BAND-MAID videos listed by comment count
+Most Commented Reactions.pdf BAND-MAID reaction video with the most comments
 Lyricist Credits by Song.pdf Lyric writing credits for each studio song
-Live Videos.pdf
-Live History of all Songs.pdf
+Live Videos.pdf Master list of live BAND-MAID videos
+Live History of all Songs.pdf Each song with a chronological list of all live performances
 Live Debuts by Venue.pdf All live debuts by venue's frequency of live debuts
 LastFM Rank.pdf LastFM song rank
-JegJ6cSsUgg.pdf
+JegJ6cSsUgg.pdf Daily YT stats for the Ready to Rock Special Anime OMV
 Interview Videos.pdf All interview videos by views
 Interview Videos Chronological.pdf All interview videos by date 
 Highest Reaction Views for Each Song.pdf 
 First Time Reactions.pdf First time reactions to BAND-MAID listed chronologically
 First Time Reactions (Recent First).pdf First time reactions to BAND-MAID (newest first)
-eapNDHKbu0M.pdf
+eapNDHKbu0M.pdf Daily YT stats for the Ready to Rock OMV
 Deezer Top Tracks.pdf Results of Deezer Top Tracks query
 Deezer Internal Rank.pdf Deezer song popularity rank
 Cover Videos.pdf All cover videos by date
 Cover Videos by Views.pdf All cover videos by views
 Compilation Videos.pdf All compilation videos by views 
-Comment_VRAINS.pdf 
-Comment_ShaunTrack.pdf
-Comment_Peacemaker.pdf
-Comment_Modesty.pdf
-Comment_Kate.pdf
-cluppo YouTube.pdf
-Chronological Reactions.pdf
+Comment_VRAINS.pdf Comments from BAND-MAID videos referencing the VRAINS anime
+Comment_ShaunTrack.pdf Comments from BAND-MAID videos referencing the Spanish reactor ShaunTrack
+Comment_Peacemaker.pdf Comments from BAND-MAID videos referencing the HBO Max series Peacemaker
+Comment_Modesty.pdf Comments from BAND-MAID videos referencing the anime Rock is a Lady's Modesty
+Comment_Kate.pdf Comments from BAND-MAID videos referencing the Netflix movie Kate
+cluppo YouTube.pdf Summary of all Cluppo YT videos
+Chronological Reactions.pdf All reaction videos from the very first to the most recent
 Calendar.pdf Upcoming shows and events
 BilliBilli Videos.pdf Official MV releases on BilliBilli
 BilliBilli Videos Delta.pdf Current day change in followers, views, likes, etc.
 BilliBilli Videos by Song.pdf BilliBilli videos grouped and totaled by song
-bandmaid_song_sorter.html
-bandmaid_song_sorter.csv
+bandmaid_song_sorter.html BAND-MAID song sorter/ranker
 BandMaid Streaming Metrics.pdf Daily summary of metrics from YouTube, Spotify, and lastFM
-Band-Maid Prime.pdf
-Band-Maid News.pdf
+Band-Maid Prime.pdf BAND-MAID Prime videos with links organized by category
+Band-Maid News.pdf Organized list with links of all BAND-MAID news releases from the official website
 Band-Maid Gallery.pdf Easily searchable and sorted list of all fan club (OMEISYUSAMA) photo galleries 
 Band-Maid FanClub.pdf Easily searchable and sorted list of all fan club (OMEISYUSAMA) videos
 Arrangement Credits by Song.pdf Arragement credits for each studio song
@@ -172,5 +169,5 @@ All Setlists.pdf All Band-Maid setlists
 All Reactions By Reactor sorted by views.pdf All reaction videos grouped by top reactors ordered by most views
 All Reactions By Reactor Chronological.pdf All reaction videos grouped by top reactors in chronological sequence
 Albums On Report.pdf A list of all releases and streams that each song in on
-5uOdE0j4h1E.pdf
-3kMIh0_Wkpk.pdf
+5uOdE0j4h1E.pdf Daily YT stats for the Ready to Rock audio track
+3kMIh0_Wkpk.pdf Daily YT stats for the What is justice? OMV
