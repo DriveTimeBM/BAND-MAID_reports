@@ -1,2 +1,176 @@
-Next Million Projection.pdf Million mark Projections for all songs.
-
+YouTube Views Per Day.pdf Videos listed by views/day over their lifetime 
+YouTube Videos by Type.pdf Breakdown of YT videos by type (OMV,OLV,Audio, etc.)
+YouTube Videos by Type Summary.pdf Summary of YT videos by type (OMV,OLV,Audio, etc.)
+YouTube Videos by Song.pdf List of all YouTube videos for each song
+YouTube Video Ids Query.txt All BAND-MAID YT video ids as a text file
+YouTube Top Like Pct.pdf YT videos ranked by like percentage
+YouTube Top Like Pct by Type.pdf YT videos ranked by like percentage and grouped by type
+YouTube Top Audio Likes Pct.pdf YT audio only videos ranked by like percentage
+YouTube Teaser Videos.pdf All YT tesder videos ranked by views
+YouTube Shorts Videos.pdf All YT shorts ranked by views
+YouTube Shorts Videos by Date.pdf All YT shorts by publish date
+YouTube Shorts by Song.pdf List of all YouTube Shorts by song
+YouTube Shorts by Member.pdf All YT shorts grouped by member, ranked by views
+YouTube Million Groups.pdf YT videos over 1M views grouped by views range 1M, 2M ,etc.
+YouTube Milestones.pdf All YT milestones for today. (Surpassing the next 100K mark)
+YouTube Birthdays.pdf All YT videos release ordered by closeness to their anniversaries
+YouTube Audio Pre and Post R2R.pdf Audio views pre and post the release of Ready to Rock which boosted views
+YouTube Audio Aggregate Views.pdf Total audio-only streams for each song ranked by total views
+YouTube Audio Aggregate Views by Delta.pdf Total audio-only streams for each song ranked by the day's change
+YouTube Audio Aggregate Views by Album.pdf Total audio-only streams for each song ranked grouped by album
+YouTube Audio Aggregate Views Album Summary.pdf Summary of each album's audio-only streams
+YouTube Audio Aggregate Likes.pdf Aggregates likes for audio-only tracks across all videos
+YouTube Audio Aggregate Daily Views by Album.pdf Daily change of audio streams by album
+YouTube Anime Aggregate Views.pdf Agrregate total views of just the anime songs
+YouTube Aggregate Views.pdf Agrregate total views for every song
+YouTube Aggregate Views by Delta.pdf Agrregate total views for every song sorted by daily change
+YouTube Aggregate Views by Album.pdf Agrregate total views by album
+YouTube Aggregate Likes.pdf  Agrregate total likes of each song
+XHuBR4nAjrE.pdf
+Wikipedia Top Years JA.pdf Yearly Wikipedia lookups for Japanese Wikipedia
+Wikipedia Top Years EN.pdf Yearly Wikipedia lookups for English Wikipedia
+Wikipedia Top Months.pdf Monthly Wikipedia lookups for all Wikipedia ranked by top months
+Wikipedia Top Months ZH.pdf Monthly Wikipedia lookups for Chinese Wikipedia ranked by top months
+Wikipedia Top Months JA.pdf Monthly Wikipedia lookups for Japanese Wikipedia ranked by top months
+Wikipedia Top Months EN.pdf Monthly Wikipedia lookups for English Wikipedia ranked by top months
+Wikipedia Pages.pdf All BAND-MAID Wikipedia pages (all languages)
+Wikipedia Monthly BAND-MAID Pageviews.pdf Total lookups by month across all languages
+Wikipedia by Day.pdf Day by day accounting of BAND-MAID looksups for Japanese, English, and Chinese Wikipedia
+White Room Videos.pdf All BAND-MAID songs with "white room videos"
+vu2D3lzH7Y0.pdf
+Unique Arrangements.pdf
+Translations.pdf
+Translations Index.pdf
+Total Streams by Song.pdf
+Top Wikipedia Days ZH.pdf
+Top Wikipedia Days JA.pdf
+Top Wikipedia Days EN.pdf
+Top Reactions By Reactor sorted by views.pdf
+Top Reaction Videos by Song.pdf
+Top Google Trends.pdf
+Thrill Comments by Day.pdf
+Spotify vs YouTube Daily Audio Streams.pdf
+Spotify vs YouTube Audio Streams.pdf
+Spotify Song Streams.pdf
+Spotify Song Streams per Day.pdf
+Spotify Song Streams by Album.pdf
+Spotify Song Popularity.pdf
+Spotify Next Million Projection.pdf
+Spotify Milestones.pdf
+Spotify Album Popularity.pdf
+Sorter Results By Album.pdf
+Sorter Range.pdf
+Sorter Participants.pdf
+Sorter Non-Album Aggregate Results.pdf
+Sorter No Solo Aggregate Results.pdf
+Sorter Miku Aggregate Results.pdf
+Sorter Instrumental Aggregate Results.pdf
+Sorter Crosstab.pdf
+Sorter Anime Aggregate Results.pdf
+Sorter Aggregate Results.pdf
+Songs with Solos.pdf
+Songs with No Solos.pdf
+Songs With MVs.pdf
+Songs With Media Tie-Ins.pdf
+Songs with Bass Solos.pdf
+Songs Played by Year.pdf
+Songs Played by Year Summary.pdf
+Songs Encyclopedia.pdf
+Songs Debuts by Venue.pdf
+Songs Debuted Live.pdf
+Songs by Release Date.pdf
+Songs by Most Recent Live Performance.pdf
+Songs by Most Recent Live Debut.pdf
+Songs by Alt Arrangements.pdf
+Song Sorter Detailed Data.pdf
+Song Reaction Top Reactor Summary.pdf
+Song Reaction Summary.pdf
+Song Reaction Leaderboard.pdf
+Song Notes and Quotes Report.pdf
+Song Durations.pdf
+Song Counts by Country.pdf
+Social Media.pdf
+Shazam Top Tracks.pdf
+rZ1mpH8iXQc.pdf
+Ryan Mear BAND-MAID Videos.pdf
+Release Notes and Quotes Report.pdf
+Related Artists - Spotify.pdf
+Ready to Rock - 3 versions.pdf
+ReactionVideoIds.txt
+Reaction Views by Channel.pdf
+Reaction Videos By Year.pdf
+Reaction Videos by Song.pdf
+Reaction Videos by Channel.pdf
+Reaction Video Statistics.pdf
+Reaction Playlists.pdf
+Reaction Avg Views by Channel.pdf
+R2R Comments.pdf
+Prime Self-Covers.pdf
+Prime Self-Covers by Song.pdf
+Pirated YouTube Videos.pdf
+Pirated YouTube Videos with Links.pdf
+OKYUJI by Venue.pdf
+Next Million.txt
+Next Million Projection.pdf
+New YouTube Comments.pdf
+New Reactors by Year Summary.pdf
+New Reactors by Month.pdf
+New Reactors by Month Summary.pdf
+Music Credits by Song.pdf
+Most Viewed Reactions.pdf
+Most Popular Video By Reactor.pdf
+Most Liked Videos.pdf
+Most Liked Reactions.pdf
+Most Commented Videos.pdf
+Most Commented Reactions.pdf
+Lyricist Credits by Song.pdf
+Live Videos.pdf
+Live History of all Songs.pdf
+Live Debuts by Venue.pdf
+LastFM Rank.pdf
+JegJ6cSsUgg.pdf
+Interview Videos.pdf
+Interview Videos Chronological.pdf
+Highest Reaction Views for Each Song.pdf
+First Time Reactions.pdf
+First Time Reactions (Recent First).pdf
+eapNDHKbu0M.pdf
+Deezer Top Tracks.pdf
+Deezer Internal Rank.pdf
+Cover Videos.pdf
+Cover Videos by Views.pdf
+Compilation Videos.pdf
+Comment_VRAINS.pdf
+Comment_ShaunTrack.pdf
+Comment_Peacemaker.pdf
+Comment_Modesty.pdf
+Comment_Kate.pdf
+cluppo YouTube.pdf
+Chronological Reactions.pdf
+Calendar.pdf
+BilliBilli Videos.pdf
+BilliBilli Videos Delta.pdf
+BilliBilli Videos by Song.pdf
+bandmaid_song_sorter.html
+bandmaid_song_sorter.csv
+BandMaid Streaming Metrics.pdf
+Band-Maid Prime.pdf
+Band-Maid News.pdf
+Band-Maid Gallery.pdf
+Band-Maid FanClub.pdf
+Arrangement Credits by Song.pdf
+Alternative Live Arrangements.pdf
+All YouTube Live Content by Views.pdf
+All YouTube Content Grouped by Title.pdf
+All YouTube Content by Views.pdf
+All YouTube Content by Release Date.pdf
+All YouTube Content by New Views.pdf
+All YouTube Content by New Likes.pdf
+All YouTube Content by Name.pdf
+All YouTube Content by Duration.pdf
+All Setlists.pdf
+All Reactions By Reactor sorted by views.pdf
+All Reactions By Reactor Chronological.pdf
+Albums On Report.pdf
+5uOdE0j4h1E.pdf
+3kMIh0_Wkpk.pdf
