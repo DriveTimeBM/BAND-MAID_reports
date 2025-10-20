@@ -4,7 +4,6 @@
   
     // -------- Config --------
     const HOVER_DELAY_MS = 600;     // wait before loading
-    //const MAX_WIDTH_PX   = 420;     // CSS width of preview
     const MAX_WIDTH_PX   = 640;     // CSS width of preview
     const POP_ZINDEX     = 9999;
   
@@ -41,10 +40,10 @@
             padding: 6px;
             border-radius: 6px;
             display: none;
-            max-width: ${MAX_WIDTH_PX + 60}px;
+            max-width: none;
             max-height: 640px;
             overflow: auto;
-            min-width: ${MAX_WIDTH_PX}px;
+            min-width: 0;
             min-height: 80px;
           }
           .bm-pdf-preview-pop canvas { display:block; width:100%; height:auto; }
@@ -109,40 +108,44 @@
   
       async function renderFirstPage(url) {
         if (cache.has(url)) return cache.get(url);
-  
+      
         const p = pdfjsLib.getDocument(url).promise
           .then(doc => doc.getPage(1))
           .then(page => {
-            // Fit width, render at device pixel ratio for sharpness
+            // --- sizing: allow upscaling based on MAX_WIDTH_PX ---
             const base = page.getViewport({ scale: 1 });
-            const cssWidth = Math.min(MAX_WIDTH_PX, base.width);
-            const scale = cssWidth / base.width;
-  
+            const CSS_WIDTH = Math.round(MAX_WIDTH_PX);        // e.g., 630 if you increased it
+            const scale = CSS_WIDTH / base.width;              // can be > 1
+      
             const viewport = page.getViewport({ scale });
             const dpr = Math.max(1, window.devicePixelRatio || 1);
-  
+      
             const canvas = document.createElement('canvas');
             const ctx = canvas.getContext('2d', { alpha: false });
-  
+      
+            // internal pixel buffer for crispness
             canvas.width  = Math.round(viewport.width  * dpr);
             canvas.height = Math.round(viewport.height * dpr);
-            canvas.style.width  = `${Math.round(viewport.width)}px`;
+      
+            // visible CSS size
+            canvas.style.width  = `${CSS_WIDTH}px`;
             canvas.style.height = `${Math.round(viewport.height)}px`;
-  
-            // Scale drawing to DPR
+      
+            // draw at DPR
             ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-  
+      
             return page.render({ canvasContext: ctx, viewport }).promise.then(() => canvas);
           })
           .catch((e) => {
             console.warn('PDF preview failed:', e);
             return null;
           });
-  
+      
         cache.set(url, p);
         return p;
       }
-  
+      
+      
       function attach(a) {
         if (!isPdfLink(a)) return;
         if (a.dataset.bmPdfPreviewAttached === '1') return;
