@@ -69,17 +69,25 @@
         return /\.pdf(\?|#|$)/i.test(href);
       }
   
-    // Replace your absUrl() with this:
-    function absUrl(a) {
-        const href = a.getAttribute('href') || '';
-        try {
-          // Use full current URL as base so project subpath is preserved
-          return new URL(href, window.location.href).href;
-        } catch {
-          return a.href || href;
+      function absUrl(a) {
+        let href = a.getAttribute('href') || '';
+        // Already absolute?
+        try { return new URL(href).href; } catch {}
+      
+        // If href begins with "/" and we're on a project page, prefix the repo segment.
+        if (href.startsWith('/')) {
+          const segs = window.location.pathname.split('/').filter(Boolean);
+          // segs[0] === repo name on project pages like /BAND-MAID_gpt/...
+          if (segs.length >= 1) {
+            href = `/${segs[0]}${href}`;      // "/BAND-MAID_gpt" + "/Reports/.."
+          }
+          // else: user site root; keep as-is
         }
-    }
-    
+      
+        // Resolve against full current URL to preserve subpath
+        return new URL(href, window.location.href).href;
+      }
+          
       function positionPopup(anchor) {
         const r = anchor.getBoundingClientRect();
         const margin = 8;
