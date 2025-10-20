@@ -69,12 +69,17 @@
         return /\.pdf(\?|#|$)/i.test(href);
       }
   
-      function absUrl(a) {
+    // Replace your absUrl() with this:
+    function absUrl(a) {
         const href = a.getAttribute('href') || '';
-        try { return new URL(href, window.location.origin).href; }
-        catch { return a.href || href; }
-      }
-  
+        try {
+          // Use full current URL as base so project subpath is preserved
+          return new URL(href, window.location.href).href;
+        } catch {
+          return a.href || href;
+        }
+    }
+    
       function positionPopup(anchor) {
         const r = anchor.getBoundingClientRect();
         const margin = 8;
