@@ -159,7 +159,24 @@
           status.textContent = 'Loading preview…';
           pop.appendChild(status);
   
+          // **
+          async function urlOk(url) {
+            try { const r = await fetch(url, { method: 'HEAD' }); return r.ok; }
+            catch { return false; }
+          }
+          
+          // before rendering:
           const url = absUrl(a);
+          console.debug('PDF preview URL:', url);
+          if (!(await urlOk(url))) {
+            pop.replaceChildren(Object.assign(document.createElement('div'), {
+              className: 'bm-pdf-preview-status',
+              textContent: 'File not found (404). Check path/case.'
+            }));
+            return;
+          }
+          // **
+
           const canvas = await renderFirstPage(url);
   
           pop.replaceChildren();
