@@ -4,7 +4,8 @@
   
     // -------- Config --------
     const HOVER_DELAY_MS = 600;     // wait before loading
-    const MAX_WIDTH_PX   = 420;     // CSS width of preview
+    //const MAX_WIDTH_PX   = 420;     // CSS width of preview
+    const MAX_WIDTH_PX   = 640;     // CSS width of preview
     const POP_ZINDEX     = 9999;
   
     // -------- Guards --------
