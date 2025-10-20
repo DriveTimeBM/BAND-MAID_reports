@@ -193,18 +193,14 @@
     </ol>
 
 
-<!-- 1) PDF.js core -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.7.76/pdf.min.js"></script>
-
-<!-- 2) Configure worker for the same version -->
-<script>
-  if (!window.pdfjsLib) {
-    console.error('PDF.js failed to load (core script missing)');
-  } else {
-    pdfjsLib.GlobalWorkerOptions.workerSrc =
-      "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.7.76/pdf.worker.min.js";
-  }
-</script>
+    <script type="module">
+        import * as pdfjsLib from "https://cdn.jsdelivr.net/npm/pdfjs-dist@5.4.296/+esm";
+        pdfjsLib.GlobalWorkerOptions.workerSrc =
+          "https://cdn.jsdelivr.net/npm/pdfjs-dist@5.4.296/build/pdf.worker.min.mjs";
+        window.pdfjsLib = pdfjsLib; // make it available to non-module code
+      </script>
+      <script src="pdf-preview.js"></script>
+      
 
 <!-- 3) Your preview code -->
 <script src="pdf-preview.js"></script>
