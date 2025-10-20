@@ -192,12 +192,14 @@
         <li><a href='Reports/3kMIh0_Wkpk.pdf' target='_blank'>3kMIh0_Wkpk.pdf</a><span class='desc'> - Daily YT stats for the What is justice? OMV</span></li>
     </ol>
 
-<!-- PDF.js (CDN) -->
-<script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@4.7.76/build/pdf.min.js"></script>
+<!-- PDF.js core -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.7.76/pdf.min.js"></script>
+<!-- Worker -->
 <script>
   pdfjsLib.GlobalWorkerOptions.workerSrc =
-    "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.7.76/build/pdf.worker.min.js";
+    "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.7.76/pdf.worker.min.js";
 </script>
+
 
 <style>
   .pdf-preview-pop {
