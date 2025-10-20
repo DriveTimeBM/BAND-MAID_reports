@@ -192,120 +192,23 @@
         <li><a href='Reports/3kMIh0_Wkpk.pdf' target='_blank'>3kMIh0_Wkpk.pdf</a><span class='desc'> - Daily YT stats for the What is justice? OMV</span></li>
     </ol>
 
-<!-- PDF.js core -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.7.76/pdf.min.js"></script>
-<!-- Worker -->
-<script>
-  pdfjsLib.GlobalWorkerOptions.workerSrc =
-    "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.7.76/pdf.worker.min.js";
-</script>
 
+<!-- PDF.js core (UMD) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.7.76/pdf.min.js" defer></script>
 
-<style>
-  .pdf-preview-pop {
-    position: absolute;
-    z-index: 9999;
-    background: #fff;
-    border: 1px solid #ccc;
-    box-shadow: 0 6px 24px rgba(0,0,0,.2);
-    padding: 6px;
-    border-radius: 6px;
-    display: none;
-    max-width: 480px;
-    max-height: 640px;
-    overflow: auto;
-  }
-  .pdf-preview-pop canvas { display:block; width:100%; height:auto; }
-</style>
-
-<script>
-(() => {
-  const HOVER_DELAY_MS = 600;       // wait before loading
-  const MAX_WIDTH_PX   = 420;       // preview width
-  const cache = new Map();          // url -> Promise<HTMLCanvasElement>
-
-  const pop = document.createElement('div');
-  pop.className = 'pdf-preview-pop';
-  document.body.appendChild(pop);
-
-  function renderFirstPage(url) {
-    if (cache.has(url)) return cache.get(url);
-
-    const p = pdfjsLib.getDocument(url).promise
-      .then(doc => doc.getPage(1))
-      .then(page => {
-        const viewport = page.getViewport({ scale: 1 });
-        const scale = Math.min(MAX_WIDTH_PX / viewport.width, 1.5);
-        const v = page.getViewport({ scale });
-
-        const canvas = document.createElement('canvas');
-        canvas.width = v.width;
-        canvas.height = v.height;
-        const ctx = canvas.getContext('2d', { alpha: false });
-
-        return page.render({ canvasContext: ctx, viewport: v }).promise.then(() => canvas);
-      })
-      .catch(() => null);
-    cache.set(url, p);
-    return p;
-  }
-
-  function positionPopup(anchor) {
-    const r = anchor.getBoundingClientRect();
-    const margin = 8;
-    const top = window.scrollY + r.bottom + margin;
-    const left = Math.min(
-      window.scrollX + r.left,
-      window.scrollX + document.documentElement.clientWidth - pop.offsetWidth - margin
-    );
-    pop.style.top = `${top}px`;
-    pop.style.left = `${left}px`;
-  }
-
-  function attach(el) {
-    if (!el || !/\.pdf(\?|#|$)/i.test(el.getAttribute('href') || '')) return;
-
-    let timer = null;
-
-    el.addEventListener('mouseenter', () => {
-      timer = setTimeout(async () => {
-        pop.innerHTML = ''; // clear
-        pop.style.display = 'block';
-        positionPopup(el);
-        const url = el.href;
-        const canvas = await renderFirstPage(url);
-        if (canvas) pop.appendChild(canvas);
-        else pop.textContent = 'Preview failed';
-        positionPopup(el); // adjust after sizing
-      }, HOVER_DELAY_MS);
-    });
-
-    function hide() {
-      clearTimeout(timer);
-      pop.style.display = 'none';
-      pop.innerHTML = '';
+<!-- Worker URL must match the version -->
+<script defer>
+  window.addEventListener('DOMContentLoaded', () => {
+    if (!window.pdfjsLib) {
+      console.error('PDF.js failed to load');
+      return;
     }
-
-    el.addEventListener('mouseleave', hide);
-    pop.addEventListener('mouseleave', hide);
-    pop.addEventListener('mouseenter', () => clearTimeout(timer));
-
-    // Keyboard focus support
-    el.addEventListener('focus', () => el.dispatchEvent(new Event('mouseenter')));
-    el.addEventListener('blur', () => el.dispatchEvent(new Event('mouseleave')));
-  }
-
-  // Attach to all <a href="*.pdf">
-  document.querySelectorAll('a[href$=".pdf"], a[href*=".pdf?"], a[href*=".pdf#"]').forEach(attach);
-
-  // If your list is injected later, observe:
-  const obs = new MutationObserver(() => {
-    document.querySelectorAll('a[href$=".pdf"], a[href*=".pdf?"], a[href*=".pdf#"]').forEach(attach);
+    pdfjsLib.GlobalWorkerOptions.workerSrc =
+      "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.7.76/pdf.worker.min.js";
   });
-  obs.observe(document.body, { childList: true, subtree: true });
-})();
 </script>
 
+<script defer src="pdf-preview.js"></script>
 
 </body>
 </html>
