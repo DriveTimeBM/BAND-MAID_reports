@@ -193,22 +193,22 @@
     </ol>
 
 
-<!-- PDF.js core (UMD) -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.7.76/pdf.min.js" defer></script>
+<!-- 1) PDF.js core -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.7.76/pdf.min.js"></script>
 
-<!-- Worker URL must match the version -->
-<script defer>
-  window.addEventListener('DOMContentLoaded', () => {
-    if (!window.pdfjsLib) {
-      console.error('PDF.js failed to load');
-      return;
-    }
+<!-- 2) Configure worker for the same version -->
+<script>
+  if (!window.pdfjsLib) {
+    console.error('PDF.js failed to load (core script missing)');
+  } else {
     pdfjsLib.GlobalWorkerOptions.workerSrc =
       "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.7.76/pdf.worker.min.js";
-  });
+  }
 </script>
 
-<script defer src="pdf-preview.js"></script>
+<!-- 3) Your preview code -->
+<script src="pdf-preview.js"></script>
+
 
 </body>
 </html>
