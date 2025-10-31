@@ -43,3 +43,5 @@ This project contains over 150 BAND-MAID reports. Most are updated daily.
 - [BAND-MAID GPT](https://github.com/DriveTimeBM/BAND-MAID_gpt)
 - [BAND-MAID Prime Metadata](https://github.com/DriveTimeBM/BAND-MAID_prime)
 - [BAND-MAID Creations](https://github.com/DriveTimeBM/BAND-MAID_creations)
+- [BAND-MAID Setlists (Okyuji)](https://github.com/DriveTimeBM/BAND-MAID_okyuji)
+- [BAND-MAID Translations](https://github.com/DriveTimeBM/BAND-MAID_translations)
