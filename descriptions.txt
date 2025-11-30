@@ -81,6 +81,7 @@ Songs Debuted Live.pdf List of known songs that were played live prior to releas
 Songs by Release Date.pdf Cronological list of songs
 Songs by Most Recent Live Performance.pdf
 Songs by Most Recent Live Debut.pdf All live debuts from most recent back
+Songs by Most Times Played.pdf Songs ordered by most times played live with most recent performance
 Songs by Alt Arrangements.pdf Arrangement combos
 Song Reaction Top Reactor Summary.pdf Top reaactions per song grouped by reactor
 Song Reaction Summary.pdf Summary ordered by most reacted to songs
