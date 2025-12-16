@@ -47,7 +47,6 @@ Top Wikipedia Days JA.pdf Top BAND-MAID Days for the Japanese Wikipedia
 Top Wikipedia Days EN.pdf Top BAND-MAID Days for the English Wikipedia
 Top Reactions By Reactor sorted by views.pdf Grouped by reaction channel and sorted by views
 Top Reaction Videos by Song.pdf Most viewed reaction videos for each song
-Top Google Trends.pdf (needs updated)
 Thrill Comments by Day.pdf Number of new comment on the Thrill OMV by day
 Spotify vs YouTube Daily Audio Streams.pdf Sorted by relative perfomance of YouTube (audioonly) daily streams  vs. Spotify daily streams. YT # is previous day. Spotify # is avg of
 Spotify vs YouTube Audio Streams.pdf Sorted by YouTube (audio only) total streams vs. Spotify Total Streams 
