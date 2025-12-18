@@ -67,6 +67,7 @@ Sorter Instrumental Aggregate Results.pdf Aggregated sorter results for instrume
 Sorter Crosstab.pdf Crosstab look at sorter data. Songs as rows. Sorter participants as colums. 
 Sorter Anime Aggregate Results.pdf Aggregated sorter results for anime songs, updated upon submissions 
 Sorter Aggregate Results.pdf Aggregated sorter results, updated upon submissions
+Songs With Acoustic Versions.pdf A list of songs with known acoustic versions grouped by album
 Songs with Solos.pdf List of songs with solos. Subjective and somewhat arbitrary. When in doubt, I call it a solo.
 Songs with No Solos.pdf List of songs without solos. Subjective and somewhat arbitrary. When in doubt, I call it a solo.
 Songs With MVs.pdf List of songs with OMVs, OLVS, and both 
