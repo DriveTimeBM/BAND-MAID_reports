@@ -22,6 +22,7 @@ YouTube Audio Aggregate Views by Album.pdf Total audio-only streams for each son
 YouTube Audio Aggregate Views Album Summary.pdf Summary of each album's audio-only streams
 YouTube Audio Aggregate Likes.pdf Aggregates likes for audio-only tracks across all videos
 YouTube Audio Aggregate Daily Views by Album.pdf Daily change of audio streams by album
+YouTube Audio Track Detail.pdf Audio track details grouped by song
 YouTube Anime Aggregate Views.pdf Agrregate total views of just the anime songs
 YouTube Aggregate Views.pdf Agrregate total views for every song
 YouTube Aggregate Views by Delta.pdf Agrregate total views for every song sorted by daily change
