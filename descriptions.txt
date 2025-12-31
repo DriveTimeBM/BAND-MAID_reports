@@ -105,6 +105,7 @@ Reaction Videos by Channel.pdf Total reaction videos for each YT channel
 Reaction Video Statistics.pdf Total reaction channels, total reaction videos, and total reaction views.
 Reaction Playlists.pdf List of Haro Matsu's playlists on YouTube
 Reaction Avg Views by Channel.pdf Average reaction views for each YT channel 
+Prime Detail.pdf Track/Section listings for BAND-MAID Prime videos for okyuji, talks, BTS or other videos with sections
 Prime Self-Covers.pdf All Prime self-covers grouped by song and sorted by member
 Prime Self-Covers by Song.pdf All Prime self-covers grouped by member and sorted by song
 Pirated YouTube Videos.pdf Playlist of "pirated" videos on YouTube maintained by @Alex_8964. The report reflects the contents of that list. I have not verified it.
