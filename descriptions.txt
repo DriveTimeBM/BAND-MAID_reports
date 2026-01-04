@@ -59,7 +59,7 @@ Spotify Song Streams per Day.pdf Sorted by avegage streams per day for the previ
 Spotify Song Streams by Album.pdf Number of song streams on Spotify Organized by album. Each song updated once per week.
 Spotify Song Popularity.pdf Songs ranked by Spotify Popularity
 Spotify Next Million Projection.pdf (needs work) Projection for next million mark based on previous week's streams 
-Spotify Milestones.pdf List of all Spotify songs that cross 100K milestones for that day *NEW*
+Spotify Milestones.pdf List of all Spotify songs that cross 100K milestones for that day
 Spotify Album Popularity.pdf Albums ranked by Spotify Popularity
 Sorter Results By Album.pdf Aggregated sorter results by album, updated upon submissions
 Sorter Range.pdf The range of each song. [Worst] - [Best]
