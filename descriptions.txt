@@ -90,6 +90,7 @@ Songs by Alt Arrangements.pdf Arrangement combos
 Song Reaction Top Reactor Summary.pdf Top reaactions per song grouped by reactor
 Song Reaction Summary.pdf Summary ordered by most reacted to songs
 Song Reaction Leaderboard.pdf Number of songs for each reaction channel where their reaction has the most views of all reactions to that song.
+Song Name Analysis.pdf Songs grouped by first letter with stats for song name lengths
 Song Notes and Quotes Report.pdf Collection of band quotes organized by song
 Song Durations.pdf Songs sorted by duration (from Spotify data)
 Song Counts by Country.pdf Live song counts grouped by country
