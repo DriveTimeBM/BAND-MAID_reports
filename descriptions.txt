@@ -62,6 +62,7 @@ Spotify Song Popularity.pdf Songs ranked by Spotify Popularity
 Spotify Next Million Projection.pdf (needs work) Projection for next million mark based on previous week's streams 
 Spotify Milestones.pdf List of all Spotify songs that cross 100K milestones for that day
 Spotify Album Popularity.pdf Albums ranked by Spotify Popularity
+Spotify vs OMV.pdf Spotify performance on songs compared to their YouTube OMVs
 Sorter Results By Album.pdf Aggregated sorter results by album, updated upon submissions
 Sorter Range.pdf The range of each song. [Worst] - [Best]
 Sorter Participants.pdf Check to see if your submission is included in the results
