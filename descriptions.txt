@@ -15,6 +15,7 @@ YouTube Shorts by Member.pdf All YT shorts grouped by member, ranked by views
 YouTube Releases by Year.pdf Summary of YouTube releases by year
 YouTube Million Groups.pdf YT videos over 1M views grouped by views range 1M, 2M ,etc.
 YouTube Milestones.pdf All YT milestones for today. (Surpassing the next 100K mark)
+YouTube Delta by DoW.pdf YouTube views by day of week (Monday measures Sunday, etc.)
 YouTube Birthdays.pdf All YT videos release ordered by closeness to their anniversaries
 YouTube Audio Streams by Day.pdf Total YouTube Audio streams by day
 YouTube Audio Pre and Post R2R.pdf Audio views pre and post the release of Ready to Rock which boosted views
