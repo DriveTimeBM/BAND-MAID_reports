@@ -136,6 +136,7 @@ Most Commented Reactions.pdf BAND-MAID reaction video with the most comments
 Lyricist Credits by Song.pdf Lyric writing credits for each studio song
 Live Videos.pdf Master list of live BAND-MAID videos grouped by event
 Live Videos by Views.pdf Master list of live BAND-MAID videos sorted by views
+Live FanCam Videos by Views.pdf Master list of live fancam videos sorted by views
 Live History of all Songs.pdf Each song with a chronological list of all live performances
 Live Debuts by Venue.pdf All live debuts by venue's frequency of live debuts
 LastFM Rank.pdf LastFM song rank
