@@ -61,6 +61,7 @@ Spotify vs YouTube Audio Streams.pdf Sorted by YouTube (audio only) total stream
 Spotify Song Streams.pdf Number of song streams on Spotify. Each song updated once per week.
 Spotify Song Streams per Day.pdf Sorted by average streams per day for the previous week. 
 Spotify Song Streams per Day All Time.pdf Sorted by lifetime average streams per day.
+Spotify Song Streams per Day Pct.pdf Sorted by current average streams per day as a percentage of historical streams per day
 Spotify Song Streams by Album.pdf Number of song streams on Spotify Organized by album. Each song updated once per week.
 Spotify Song Popularity.pdf Songs ranked by Spotify Popularity
 Spotify Next Million Projection.pdf (needs work) Projection for next million mark based on previous week's streams 
