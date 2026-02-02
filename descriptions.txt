@@ -176,6 +176,7 @@ Alternative Live Arrangements.pdf List of  alternative song arrangement listed b
 All YouTube Live Content by Views.pdf All YT content sorted by views
 All YouTube Content Grouped by Title.pdf All YT content grouped by title (aggregates views of duplicates)
 All YouTube Content by Views.pdf All YT content sorted by views
+All YouTube Content by Views Per Day.pdf All YT content sorted by lifetime views per day
 All YouTube Content by Release Date.pdf All YouTube Content by Release Date
 All YouTube Content by New Views.pdf All YT content sorted by yesterday's views
 All YouTube Content by New Likes.pdf All YouTube Videos sorted by number of likes
