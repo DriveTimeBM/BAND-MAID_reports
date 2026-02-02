@@ -120,6 +120,8 @@ Prime Detail.pdf Track/Section listings for BAND-MAID Prime videos for okyuji, t
 Prime Self-Covers.pdf All Prime self-covers grouped by song and sorted by member
 Prime Self-Covers by Song.pdf All Prime self-covers grouped by member and sorted by song
 Pirated YouTube Videos.pdf Playlist of "pirated" videos on YouTube maintained by @Alex_8964. The report reflects the contents of that list. I have not verified it.
+Pirated YouTube Videos with Links.pdf Playlist of "pirated" videos on YouTube maintained by @Alex_8964. The report reflects the contents of that list. I have not verified it.
+Pirated Curated YouTube Videos with Links.pdf Curated list of active pirated videos
 Other Videos.pdf Other videos such as anime OP videos, etc.
 OKYUJI by Venue.pdf All OKYUJI grouped by venue
 Next Million.txt Cosest song to next million updated 6 times per day
