@@ -137,6 +137,7 @@ Most Liked Videos.pdf All BAND-MAID videos listed by comment count
 Most Liked Reactions.pdf Reaction videos with the most likes
 Most Commented Videos.pdf All BAND-MAID videos listed by comment count
 Most Commented Reactions.pdf BAND-MAID reaction video with the most comments
+MAIDIT Takedowns.pdf List of all known videos removed by MAIDIT for copyright infringement
 Lyricist Credits by Song.pdf Lyric writing credits for each studio song
 Live Videos.pdf Master list of live BAND-MAID videos grouped by event
 Live Videos by Views.pdf Master list of live BAND-MAID videos sorted by views
