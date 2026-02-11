@@ -174,8 +174,9 @@ Band-Maid Prime.pdf BAND-MAID Prime videos with links organized by category
 Band-Maid News.pdf Organized list with links of all BAND-MAID news releases from the official website
 Band-Maid Gallery.pdf Easily searchable and sorted list of all fan club (OMEISYUSAMA) photo galleries 
 Band-Maid FanClub.pdf Easily searchable and sorted list of all fan club (OMEISYUSAMA) videos
-Arrangement Credits by Song.pdf Arragement credits for each studio song
+Arrangement Credits by Song.pdf Arragement credits for each studio song listed by arrangement count
 Alternative Live Arrangements.pdf List of  alternative song arrangement listed by song
+Alternative Live Arrangements by Name.pdf List of  alternative song arrangement listed by song name
 All YouTube Live Content by Views.pdf All YT content sorted by views
 All YouTube Content Grouped by Title.pdf All YT content grouped by title (aggregates views of duplicates)
 All YouTube Content by Views.pdf All YT content sorted by views
