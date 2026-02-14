@@ -1,5 +1,6 @@
 YouTube YTD Summary.pdf Total Views since the beginning of the calendar year
 YouTube Views Per Day.pdf Videos listed by views/day over their lifetime 
+YouTube Viewers by City.pdf Top cities for YT video views
 YouTube Videos by Type.pdf Breakdown of YT videos by type (OMV,OLV,Audio, etc.)
 YouTube Videos by Type Summary.pdf Summary of YT videos by type (OMV,OLV,Audio, etc.)
 YouTube Videos by Song.pdf List of all YouTube videos for each song
@@ -65,6 +66,7 @@ Spotify Song Streams per Day Pct.pdf Sorted by current average streams per day a
 Spotify Song Streams by Album.pdf Number of song streams on Spotify Organized by album. Each song updated once per week.
 Spotify Song Popularity.pdf Songs ranked by Spotify Popularity
 Spotify Next Million Projection.pdf (needs work) Projection for next million mark based on previous week's streams 
+Spotify Monthly Listeners.pdf Spotify listeners by city/country
 Spotify Milestones.pdf List of all Spotify songs that cross 100K milestones for that day
 Spotify Album Popularity.pdf Albums ranked by Spotify Popularity
 Spotify vs OMV.pdf Spotify performance on songs compared to their YouTube OMVs
@@ -117,6 +119,9 @@ Reaction Video Statistics.pdf Total reaction channels, total reaction videos, an
 Reaction Playlists.pdf List of Haro Matsu's playlists on YouTube
 Reaction Avg Views by Channel.pdf Average reaction views for each YT channel 
 Radio Plays.pdf Detail listing of known radio plays
+Total Radio Plays Country.pdf Summary of known radio plays by country
+Radio Plays Country.pdf Radio plays by country
+Radio Plays by City - Totals.pdf Radio plays organized by country/city
 Prime Detail.pdf Track/Section listings for BAND-MAID Prime videos for okyuji, talks, BTS or other videos with sections
 Prime Self-Covers.pdf All Prime self-covers grouped by song and sorted by member
 Prime Self-Covers by Song.pdf All Prime self-covers grouped by member and sorted by song
@@ -176,6 +181,8 @@ Band-Maid News.pdf Organized list with links of all BAND-MAID news releases from
 Band-Maid Gallery.pdf Easily searchable and sorted list of all fan club (OMEISYUSAMA) photo galleries 
 Band-Maid FanClub.pdf Easily searchable and sorted list of all fan club (OMEISYUSAMA) videos
 Arrangement Credits by Song.pdf Arragement credits for each studio song listed by arrangement count
+Apple Music Charts History.pdf Appearances of albums and songs on the Apple Music charts by country
+Amazon Music Charts History.pdf Appearances of albums and songs on the Amazon Music charts by country
 Alternative Live Arrangements.pdf List of  alternative song arrangement listed by song
 Alternative Live Arrangements by Name.pdf List of  alternative song arrangement listed by song name
 All YouTube Live Content by Views.pdf All YT content sorted by views
