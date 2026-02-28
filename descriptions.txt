@@ -173,6 +173,8 @@ Comment_Kate.pdf Comments from BAND-MAID videos referencing the Netflix movie Ka
 cluppo YouTube.pdf Summary of all Cluppo YT videos
 Chronological Reactions.pdf All reaction videos from the very first to the most recent
 CDJapan Monthly Rank.pdf History of BAND-MAID items in the CDJapan top 400 items for the month (from January 2015)
+CDJapan Ranks by Product.pdf Products ranked by number of times appearing in the CDJapan monthly top 400
+CDJapan Ranks by Album.pdf  Albums ranked by number of times appearing in the CDJapan monthly top 400
 Calendar.pdf Upcoming shows and events
 BilliBilli Videos.pdf Official MV releases on BilliBilli
 BilliBilli Videos Delta.pdf Current day change in followers, views, likes, etc.
