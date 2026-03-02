@@ -178,6 +178,7 @@ CDJapan Ranks by Album.pdf  Albums ranked by number of times appearing in the CD
 CDJapan Daily.pdf History of BAND-MAID items in the CDJapan top 20 items for the day (from January 2022)
 CDJapan Daily Grouped.pdf History of BAND-MAID items in the CDJapan top 20 items for the day (from January 2022)
 CDJapan Daily Grouped by Title.pdf History of BAND-MAID items in the CDJapan top 20 grouped by title (from January 2022)
+CDJapan Yearly.pdf History of BAND-MAID items in the CDJapan yearly top 100 since 2022
 Calendar.pdf Upcoming shows and events
 BilliBilli Videos.pdf Official MV releases on BilliBilli
 BilliBilli Videos Delta.pdf Current day change in followers, views, likes, etc.
