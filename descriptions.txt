@@ -14,6 +14,7 @@ YouTube Shorts Videos by Date.pdf All YT shorts by publish date
 YouTube Shorts by Song.pdf List of all YouTube Shorts by song
 YouTube Shorts by Member.pdf All YT shorts grouped by member, ranked by views
 YouTube Releases by Year.pdf Summary of YouTube releases by year
+YouTube MV Comparison.pdf Compare the most recent OMV daily performance to the fastest to 1M views
 YouTube Million Groups.pdf YT videos over 1M views grouped by views range 1M, 2M ,etc.
 YouTube Milestones.pdf All YT milestones for today. (Surpassing the next 100K mark)
 YouTube Language Breakdown.pdf Percentage of Japanese comments in YouTube videos
@@ -35,7 +36,6 @@ YouTube Aggregate Views by Delta.pdf Agrregate total views for every song sorted
 YouTube Aggregate Views by Album.pdf Agrregate total views by album
 YouTube Aggregate Likes.pdf  Agrregate total likes of each song
 YouTube OMV vs OLV.pdf Relative performance of OLVs to OMVs for songs that have both
-XHuBR4nAjrE.pdf Day by day views for the Zen audio track
 Wikipedia Top Years JA.pdf Yearly Wikipedia lookups for Japanese Wikipedia
 Wikipedia Top Years EN.pdf Yearly Wikipedia lookups for English Wikipedia
 Wikipedia Top Months.pdf Monthly Wikipedia lookups for all Wikipedia ranked by top months
@@ -46,7 +46,6 @@ Wikipedia Pages.pdf All BAND-MAID Wikipedia pages (all languages)
 Wikipedia Monthly BAND-MAID Pageviews.pdf Total lookups by month across all languages
 Wikipedia by Day.pdf Day by day accounting of BAND-MAID looksups for Japanese, English, and Chinese Wikipedia
 White Room Videos.pdf All BAND-MAID songs with "white room videos"
-vu2D3lzH7Y0.pdf Day by day views for the What is justice? audio track
 Unique Arrangements.pdf List of  alternative song arrangement listed by arrangement type
 Translations.pdf Translations of various articles, videos, etc.	Article translation on reddit
 Translations Index.pdf List of translations with links grouped by media type and sorted by
@@ -66,11 +65,11 @@ Spotify Song Streams per Day.pdf Sorted by average streams per day for the previ
 Spotify Song Streams per Day All Time.pdf Sorted by lifetime average streams per day.
 Spotify Song Streams per Day Pct.pdf Sorted by current average streams per day as a percentage of historical streams per day
 Spotify Song Streams by Album.pdf Number of song streams on Spotify Organized by album. Each song updated once per week.
-Spotify Song Popularity.pdf Songs ranked by Spotify Popularity
+Spotify Song Popularity.pdf **Obsolete as of  2026-03-09** Songs ranked by Spotify Popularity
 Spotify Next Million Projection.pdf (needs work) Projection for next million mark based on previous week's streams 
 Spotify Monthly Listeners.pdf Spotify listeners by city/country
 Spotify Milestones.pdf List of all Spotify songs that cross 100K milestones for that day
-Spotify Album Popularity.pdf Albums ranked by Spotify Popularity
+Spotify Album Popularity.pdf **Obsolete as of  2026-03-09** Albums ranked by Spotify Popularity
 Spotify vs OMV.pdf Spotify performance on songs compared to their YouTube OMVs
 Sorter Results By Album.pdf Aggregated sorter results by album, updated upon submissions
 Sorter Range.pdf The range of each song. [Worst] - [Best]
@@ -108,9 +107,8 @@ Song Durations.pdf Songs sorted by duration (from Spotify data)
 Song Counts by Country.pdf Live song counts grouped by country
 Social Media.pdf Follower counts on various social media platforms. Updated on Mondays only
 Shazam Top Tracks.pdf Top tracks as reported by Shazam
-rZ1mpH8iXQc.pdf Daily YT stats for the Alive-or-Dead audio track
 Release Notes and Quotes Report.pdf Collection of band quotes organized by release
-Related Artists - Spotify.pdf Spotify stats for some peer bands.
+Related Artists - **Obsolete as of  2026-03-09** Spotify.pdf Spotify stats for some peer bands.
 Ready to Rock - 3 versions.pdf A look at the 4 versions in one report. MV, Anime MV, and Audio 
 ReactionVideoIds.txt Text file containing all BAND-MAID video ids
 Reaction Views by Channel.pdf Total reaction views for each YT channel 
@@ -153,13 +151,11 @@ Live FanCam Videos by Views.pdf Master list of live fancam videos sorted by view
 Live History of all Songs.pdf Each song with a chronological list of all live performances
 Live Debuts by Venue.pdf All live debuts by venue's frequency of live debuts
 LastFM Rank.pdf LastFM song rank
-JegJ6cSsUgg.pdf Daily YT stats for the Ready to Rock Special Anime OMV
 Interview Videos.pdf All interview videos by views
 Interview Videos Chronological.pdf All interview videos by date 
 Highest Reaction Views for Each Song.pdf 
 First Time Reactions.pdf First time reactions to BAND-MAID listed chronologically
 First Time Reactions (Recent First).pdf First time reactions to BAND-MAID (newest first)
-eapNDHKbu0M.pdf Daily YT stats for the Ready to Rock OMV
 Deezer Top Tracks.pdf Results of Deezer Top Tracks query
 Deezer Internal Rank.pdf Deezer song popularity rank
 Cover Videos.pdf All cover videos by date
@@ -207,9 +203,13 @@ All Setlists.pdf All Band-Maid setlists
 All Reactions By Reactor sorted by views.pdf All reaction videos grouped by top reactors ordered by most views
 All Reactions By Reactor Chronological.pdf All reaction videos grouped by top reactors in chronological sequence
 Albums On Report.pdf A list of all releases and streams that each song in on
+XHuBR4nAjrE.pdf Day by day views for the Zen audio track
+vu2D3lzH7Y0.pdf Day by day views for the What is justice? audio track
+rZ1mpH8iXQc.pdf Daily YT stats for the Alive-or-Dead audio track
+JegJ6cSsUgg.pdf Daily YT stats for the Ready to Rock Special Anime OMV
+eapNDHKbu0M.pdf Daily YT stats for the Ready to Rock OMV
 5uOdE0j4h1E.pdf Daily YT stats for the Ready to Rock audio track
 3kMIh0_Wkpk.pdf Daily YT stats for the What is justice? OMV
 yzSdgw-tdr0.pdf Daily YT stats for the Present Perfect OMV
 2U9AP21jXuk.pdf Daily YT stats for the Present Perfect OLV (benefitted from ad campaign)
-YouTube MV Comparison.pdf Compare the most recent OMV daily performance to the fastest to 1M views
 JohnPJohnson YouTube Comments.pdf All level 1 posts with links from the bizarre fan turned troll account
