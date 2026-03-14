@@ -14,6 +14,7 @@ YouTube Shorts Videos by Date.pdf All YT shorts by publish date
 YouTube Shorts by Song.pdf List of all YouTube Shorts by song
 YouTube Shorts by Member.pdf All YT shorts grouped by member, ranked by views
 YouTube Releases by Year.pdf Summary of YouTube releases by year
+YouTube Private Videos.pdf List of known YouTube videos no longer available
 YouTube MV Comparison.pdf Compare the most recent OMV daily performance to the fastest to 1M views
 YouTube Million Groups.pdf YT videos over 1M views grouped by views range 1M, 2M ,etc.
 YouTube Milestones.pdf All YT milestones for today. (Surpassing the next 100K mark)
