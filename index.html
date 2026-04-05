@@ -63,74 +63,77 @@
           display: block;
         }
       
-        /* ── LIST ── */
-        ol {
-          list-style: decimal;
-          padding-left: 2.4em;    /* room for the numbers */
-          display: flex;
-          flex-direction: column;
-          gap: 1px;
-        }
-      
-        /* Outer border and rounding on the container, not the ol itself */
-        ol {
-          background: var(--border);
-          border: 1px solid var(--border);
-          border-radius: var(--radius);
-          overflow: hidden;
-          padding-left: 0;        /* reset — we'll handle indent inside li */
-          list-style-position: inside;
-        }
-      
-        li {
-          background: var(--bg2);
-          padding: 9px 14px;
-          display: flex;
-          align-items: baseline;
-          gap: 0;
-          transition: background 0.12s;
-          /* number + content side by side */
-          list-style-position: inside;
-        }
-        li:hover { background: var(--bg3); }
-        li::marker {
-          color: var(--text3);
-          font-size: 11px;
-          font-variant-numeric: tabular-nums;
-        }
-      
-        /* ── LINKS ── */
-        a {
-          text-decoration: none;
-          color: var(--accent);
-          font-size: 13px;
-          font-weight: 500;
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          flex-shrink: 0;
-          max-width: 260px;
-          margin-left: 6px;  /* small gap after the number */
-        }
-        a:hover { text-decoration: underline; text-underline-offset: 3px; }
-      
-        /* ── DESCRIPTION ── */
-        .desc {
-          color: var(--text2);
-          font-size: 12px;
-          margin-left: 12px;
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis;
-        }
-      
-        /* ── RESPONSIVE ── */
-        @media (max-width: 500px) {
-          li { flex-direction: column; gap: 3px; }
-          a  { max-width: 100%; white-space: normal; margin-left: 6px; }
-          .desc { margin-left: 6px; }
-        }
-      </style>
+ /* ── LIST ── */
+ ol {
+    list-style: none;       /* turn off native numbering */
+    counter-reset: report-counter;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  li {
+    background: var(--bg2);
+    padding: 9px 14px;
+    display: flex;
+    align-items: baseline;
+    gap: 0;
+    transition: background 0.12s;
+    counter-increment: report-counter;
+  }
+  li:hover { background: var(--bg3); }
+
+  /* Manual number via ::before */
+  li::before {
+    content: counter(report-counter) ".";
+    color: var(--text3);
+    font-size: 11px;
+    font-variant-numeric: tabular-nums;
+    min-width: 2.4em;       /* keeps numbers aligned regardless of digits */
+    flex-shrink: 0;
+    text-align: right;
+    margin-right: 10px;
+  }
+
+  /* ── LINKS ── */
+  a {
+    text-decoration: none;
+    color: var(--accent);
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-shrink: 0;
+    max-width: 260px;
+    margin-left: 0;
+  }
+  a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+  /* ── DESCRIPTION ── */
+  .desc {
+    color: var(--text2);
+    font-size: 12px;
+    margin-left: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 500px) {
+    li { flex-direction: column; gap: 3px; }
+    li::before { text-align: left; }
+    a  { max-width: 100%; white-space: normal; }
+    .desc { margin-left: 0; }
+  }
+ 
+ </style>
 
 </head>
 <body>
