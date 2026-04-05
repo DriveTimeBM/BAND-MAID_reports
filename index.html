@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>BAND-MAID Reports</title>
     <link rel="icon" type="image/png" href="favicon.png">
+
     <style>
         /* ── RESET & ROOT ── */
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -44,28 +45,41 @@
           border-bottom: 1px solid var(--border);
         }
       
-        /* ── LOOKER IFRAME ── */
-        iframe {
-          display: block;
+        /* ── LOOKER IFRAME — preserves 600:450 (4:3) ratio, never wider than container ── */
+        .iframe-wrap {
           width: 100%;
-          max-width: 100%;
-          height: 450px;
-          border: 1px solid var(--border) !important;
-          border-radius: var(--radius);
+          max-width: 600px;
+          aspect-ratio: 4 / 3;
           margin-bottom: 20px;
+          border: 1px solid var(--border);
+          border-radius: var(--radius);
+          overflow: hidden;
           background: var(--bg2);
+        }
+        .iframe-wrap iframe {
+          width: 100% !important;
+          height: 100% !important;
+          border: none !important;
+          display: block;
         }
       
         /* ── LIST ── */
         ol {
-          list-style: none;
+          list-style: decimal;
+          padding-left: 2.4em;    /* room for the numbers */
           display: flex;
           flex-direction: column;
           gap: 1px;
+        }
+      
+        /* Outer border and rounding on the container, not the ol itself */
+        ol {
           background: var(--border);
           border: 1px solid var(--border);
           border-radius: var(--radius);
           overflow: hidden;
+          padding-left: 0;        /* reset — we'll handle indent inside li */
+          list-style-position: inside;
         }
       
         li {
@@ -75,8 +89,15 @@
           align-items: baseline;
           gap: 0;
           transition: background 0.12s;
+          /* number + content side by side */
+          list-style-position: inside;
         }
         li:hover { background: var(--bg3); }
+        li::marker {
+          color: var(--text3);
+          font-size: 11px;
+          font-variant-numeric: tabular-nums;
+        }
       
         /* ── LINKS ── */
         a {
@@ -89,6 +110,7 @@
           text-overflow: ellipsis;
           flex-shrink: 0;
           max-width: 260px;
+          margin-left: 6px;  /* small gap after the number */
         }
         a:hover { text-decoration: underline; text-underline-offset: 3px; }
       
@@ -105,15 +127,15 @@
         /* ── RESPONSIVE ── */
         @media (max-width: 500px) {
           li { flex-direction: column; gap: 3px; }
-          a  { max-width: 100%; white-space: normal; }
-          .desc { margin-left: 0; }
-          iframe { height: 320px; }
+          a  { max-width: 100%; white-space: normal; margin-left: 6px; }
+          .desc { margin-left: 6px; }
         }
       </style>
+
 </head>
 <body>
     <h1>BAND-MAID Reports [2026-04-05 06:22]</h1>
-<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/1e345bab-6f43-4c1c-a3d3-260b62657fde/page/8yWsF" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+<iframe src="https://lookerstudio.google.com/embed/reporting/1e345bab-6f43-4c1c-a3d3-260b62657fde/page/8yWsF" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
     <ol>        <li><a href='Reports/yzSdgw-tdr0.pdf' target='_blank'>yzSdgw-tdr0.pdf</a><span class='desc'> - Daily YT stats for the Present Perfect OMV</span></li>
         <li><a href='Reports/YouTube YTD Summary.pdf' target='_blank'>YouTube YTD Summary.pdf</a><span class='desc'> - Total Views since the beginning of the calendar year</span></li>
         <li><a href='Reports/YouTube Views Per Day.pdf' target='_blank'>YouTube Views Per Day.pdf</a><span class='desc'> - Videos listed by views/day over their lifetime</span></li>
