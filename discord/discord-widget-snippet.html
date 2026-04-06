@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Discord Widget Test</title>
+<style>
+  body { background: #0a0a0a; display: flex; padding: 20px; }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════
+     BAND-MAID DISCORD WIDGET — drop anywhere in a page
+     Requires no external dependencies.
+     Copy everything between the START and END comments.
+     ═══════════════════════════════════════════════════════ -->
+<!-- DISCORD WIDGET START -->
+<div id="bm-discord-widget"></div>
+<style>
+#bm-discord-widget{display:inline-block}
+.bm-dc{
+  display:flex;align-items:center;gap:10px;
+  background:#141414;border:1px solid #2a2a2a;border-radius:8px;
+  padding:10px 14px;font-family:'Segoe UI',system-ui,sans-serif;
+  min-width:220px;max-width:320px;
+}
+.bm-dc-icon{
+  width:40px;height:40px;border-radius:10px;flex-shrink:0;
+  overflow:hidden;background:#5865f2;
+  display:flex;align-items:center;justify-content:center;
+}
+.bm-dc-icon img{width:100%;height:100%;object-fit:cover}
+.bm-dc-body{flex:1;min-width:0}
+.bm-dc-name{
+  font-size:13px;font-weight:700;color:#f0f0f0;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  letter-spacing:0.01em;
+}
+.bm-dc-status{
+  display:flex;align-items:center;gap:5px;margin-top:3px;
+}
+.bm-dc-dot{width:7px;height:7px;border-radius:50%;background:#23a55a;flex-shrink:0}
+.bm-dc-online{font-size:11px;color:#999}
+.bm-dc-online span{color:#f0f0f0;font-weight:600}
+.bm-dc-btn{
+  display:inline-flex;align-items:center;gap:6px;flex-shrink:0;
+  background:#5865f2;color:#fff;border:none;border-radius:6px;
+  padding:7px 12px;font-size:12px;font-weight:700;
+  cursor:pointer;text-decoration:none;font-family:inherit;
+  transition:opacity 0.15s;white-space:nowrap;
+}
+.bm-dc-btn:hover{opacity:0.85}
+.bm-dc-btn svg{width:14px;height:14px;flex-shrink:0}
+</style>
+<script>
+(function(){
+  const GUILD_ID   = '1404984552161673448';
+  const GUILD_NAME = 'BAND-MAID Dashboard';
+  const INVITE     = 'https://discord.com/invite/HeFJJUQk';
+  const ICON_URL   = 'https://drivetimebm.github.io/BAND-MAID_unofficial/discord/server-icon.png';
+  const WIDGET_URL = 'https://drivetimebm.github.io/BAND-MAID_unofficial/discord/discord-widget.json';
+
+  const discordLogoSvg = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>`;
+
+  function render(online) {
+    const el = document.getElementById('bm-discord-widget');
+    el.innerHTML = `
+      <div class="bm-dc">
+        <div class="bm-dc-icon">
+          <img src="${ICON_URL}" alt="" onerror="this.parentNode.innerHTML='💬'">
+        </div>
+        <div class="bm-dc-body">
+          <div class="bm-dc-name">${GUILD_NAME}</div>
+          <div class="bm-dc-status">
+            <div class="bm-dc-dot"></div>
+            <div class="bm-dc-online"><span>${online !== null ? online.toLocaleString() : '—'}</span> online</div>
+          </div>
+        </div>
+        <a class="bm-dc-btn" href="${INVITE}" target="_blank" rel="noopener">
+          ${discordLogoSvg} Join
+        </a>
+      </div>`;
+  }
+
+  // Render immediately with cached count, then update from JSON
+  render(null);
+  fetch(WIDGET_URL)
+    .then(r => r.ok ? r.json() : null)
+    .then(d => { if (d) render(d.presence_count ?? null); })
+    .catch(() => {});  // silently keep the — placeholder on failure
+})();
+</script>
+<!-- DISCORD WIDGET END -->
+
+</body>
+</html>
