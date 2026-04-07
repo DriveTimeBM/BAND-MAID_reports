@@ -18,6 +18,7 @@ YouTube Private Videos.pdf List of known YouTube videos no longer available
 YouTube MV Comparison.pdf Compare the most recent OMV daily performance to the fastest to 1M views
 YouTube Million Groups.pdf YT videos over 1M views grouped by views range 1M, 2M ,etc.
 YouTube Milestones.pdf All YT milestones for today. (Surpassing the next 100K mark)
+YouTube Locations.pdf YouTube 7 and 28 day City and Country data obtained daily.
 YouTube Language Breakdown.pdf Percentage of Japanese comments in YouTube videos
 YouTube Delta by DoW.pdf YouTube views by day of week (Monday measures Sunday, etc.)
 YouTube Birthdays.pdf All YT videos release ordered by closeness to their anniversaries
