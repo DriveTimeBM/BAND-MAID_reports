@@ -1,6 +1,5 @@
 YouTube YTD Summary.pdf Total Views since the beginning of the calendar year
 YouTube Views Per Day.pdf Videos listed by views/day over their lifetime 
-YouTube Viewers by City.pdf Top cities for YT video views
 YouTube Videos by Type.pdf Breakdown of YT videos by type (OMV,OLV,Audio, etc.)
 YouTube Videos by Type Summary.pdf Summary of YT videos by type (OMV,OLV,Audio, etc.)
 YouTube Videos by Song.pdf List of all YouTube videos for each song
