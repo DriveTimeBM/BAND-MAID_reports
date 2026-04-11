@@ -609,7 +609,7 @@
       "bilibili"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://en.wikipedia.org/wiki/Bilibili#/media/File:Bilibili_logo.svg"
   },
   {
     "filename": "BilliBilli Videos Delta.pdf",
@@ -618,7 +618,7 @@
       "bilibili"
     ],
     "sortOrder": 110,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://en.wikipedia.org/wiki/Bilibili#/media/File:Bilibili_logo.svg"
   },
   {
     "filename": "BilliBilli Videos by Song.pdf",
@@ -628,7 +628,7 @@
       "songs"
     ],
     "sortOrder": 120,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://en.wikipedia.org/wiki/Bilibili#/media/File:Bilibili_logo.svg"
   },
   {
     "filename": "Deezer Top Tracks.pdf",
@@ -637,7 +637,7 @@
       "deezer"
     ],
     "sortOrder": 110,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/7/75/Deezer_logo%2C_2023.svg"
   },
   {
     "filename": "Deezer Internal Rank.pdf",
@@ -646,7 +646,7 @@
       "deezer"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/7/75/Deezer_logo%2C_2023.svg"
   },
   {
     "filename": "Shazam Top Tracks.pdf",
@@ -655,7 +655,7 @@
       "shazam"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/9/98/Shazam_Logo.png"
   },
   {
     "filename": "Apple Music Charts History.pdf",
@@ -664,7 +664,7 @@
       "applemusic"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://commons.wikimedia.org/wiki/Category:Apple_Music#/media/File:Apple_Music_Logo.png"
   },
   {
     "filename": "Amazon Music Charts History.pdf",
@@ -673,7 +673,7 @@
       "amazonmusic"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/AmazonCircle.jpg"
   },
   {
     "filename": "LastFM Rank.pdf",
