@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BAND-MAID Reports</title>
+  <link rel="icon" href="favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.7.76/pdf.min.js"></script>
+  <script src="pdf-preview.js" defer></script>
+  <style>
+    :root {
+      --bg:         #0d0d0f;
+      --bg2:        #141417;
+      --bg3:        #1c1c21;
+      --border:     #2a2a32;
+      --accent:     #e8003d;
+      --accent2:    #ff4d6d;
+      --text:       #e8e8ec;
+      --text-muted: #7a7a8c;
+      --text-dim:   #4a4a58;
+      --gold:       #c9a84c;
+      --radius:     6px;
+      --font-head:  'Bebas Neue', sans-serif;
+      --font-body:  'DM Sans', sans-serif;
+      --font-mono:  'DM Mono', monospace;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--font-body);
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    /* Grain */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      opacity: 0.035;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 0;
+    }
+    /* Header */
+    header {
+      position: relative;
+      z-index: 1;
+      padding: 48px 40px 32px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, #130008 0%, var(--bg) 100%);
+    }
+    .header-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      align-items: flex-end;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+    .header-title-block { flex: 1; min-width: 260px; }
+    .header-eyebrow {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-family: var(--font-head);
+      font-size: clamp(52px, 8vw, 96px);
+      line-height: 0.9;
+      letter-spacing: 0.02em;
+      color: var(--text);
+    }
+    h1 span { color: var(--accent); }
+    .header-stats { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; }
+    .stat-pill {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 10px 22px;
+      min-width: 88px;
+    }
+    .stat-pill .num {
+      font-family: var(--font-head);
+      font-size: 38px;
+      line-height: 1;
+      color: var(--accent);
+    }
+    .stat-pill .lbl {
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+    /* Controls bar */
+    .controls-bar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(13,13,15,0.94);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 40px;
+    }
+    .controls-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .search-wrap {
+      position: relative;
+      flex: 1;
+      min-width: 200px;
+      max-width: 500px;
+    }
+    .search-icon {
+      position: absolute;
+      left: 11px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      pointer-events: none;
+    }
+    #search {
+      width: 100%;
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text);
+      font-family: var(--font-body);
+      font-size: 14px;
+      padding: 9px 32px 9px 34px;
+      outline: none;
+      transition: border-color .2s;
+    }
+    #search:focus { border-color: var(--accent); }
+    #search::placeholder { color: var(--text-dim); }
+    #search-clear {
+      position: absolute;
+      right: 9px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 15px;
+      line-height: 1;
+      display: none;
+      padding: 2px 4px;
+    }
+    #search-clear:hover { color: var(--text); }
+    .btn-group { display: flex; gap: 6px; }
+    .btn {
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--text-muted);
+      font-family: var(--font-body);
+      font-size: 12px;
+      letter-spacing: 0.04em;
+      padding: 8px 14px;
+      cursor: pointer;
+      transition: all .2s;
+      white-space: nowrap;
+    }
+    .btn:hover { border-color: var(--accent); color: var(--text); }
+    #search-count {
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--text-dim);
+      white-space: nowrap;
+      min-width: 80px;
+    }
+    /* Main */
+    main {
+      position: relative;
+      z-index: 1;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 32px 40px 80px;
+    }
+    /* Tabs */
+    .tab-nav {
+      display: flex;
+      gap: 0;
+      border-bottom: 2px solid var(--border);
+      margin-bottom: 32px;
+    }
+    .tab-btn {
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -2px;
+      color: var(--text-muted);
+      font-family: var(--font-body);
+      font-size: 14px;
+      font-weight: 500;
+      padding: 10px 24px;
+      cursor: pointer;
+      transition: all .2s;
+    }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--text); border-bottom-color: var(--accent); }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+    /* Category */
+    .category-section { border-bottom: 1px solid var(--border); }
+    .category-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 16px 0;
+      cursor: pointer;
+      user-select: none;
+    }
+    .category-header:hover .cat-name { color: var(--accent2); }
+    .cat-chevron {
+      width: 18px;
+      height: 18px;
+      flex-shrink: 0;
+      color: var(--text-dim);
+      transition: transform .25s cubic-bezier(.4,0,.2,1);
+    }
+    .category-section.open .cat-chevron { transform: rotate(90deg); }
+    .cat-name {
+      font-family: var(--font-head);
+      font-size: 22px;
+      letter-spacing: 0.04em;
+      flex: 1;
+      transition: color .15s;
+    }
+    .cat-count {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-muted);
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 2px 10px;
+    }
+    /* Report grid */
+    .category-body { display: none; padding-bottom: 20px; }
+    .category-section.open .category-body { display: block; }
+    .report-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 12px;
+      padding-top: 4px;
+    }
+    /* Report card */
+    .report-card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      transition: border-color .2s, transform .15s;
+      display: flex;
+      flex-direction: column;
+    }
+    .report-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+    .report-card.hidden { display: none; }
+    .report-thumb {
+      width: 100%;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      display: block;
+      background: var(--bg3);
+    }
+    .report-body {
+      padding: 10px 12px 12px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .report-num {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--text-dim);
+    }
+    .report-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.35;
+      text-decoration: none;
+      display: block;
+    }
+    .report-name:hover { color: var(--accent2); }
+    .report-desc {
+      font-size: 11.5px;
+      color: var(--text-muted);
+      line-height: 1.5;
+      flex: 1;
+    }
+    .report-ext {
+      font-family: var(--font-mono);
+      font-size: 9px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      padding: 1px 5px;
+      align-self: flex-start;
+    }
+    .report-ext.ext-pdf  { color: var(--accent);  border-color: #3a0010; }
+    .report-ext.ext-txt  { color: var(--gold);    border-color: #3a2d00; }
+    .report-ext.ext-html { color: #4dc8ff;         border-color: #003a4a; }
+    mark {
+      background: rgba(232,0,61,0.22);
+      color: var(--accent2);
+      border-radius: 2px;
+      padding: 0 1px;
+    }
+    /* No results */
+    .no-results { display: none; text-align: center; padding: 60px 20px; color: var(--text-muted); }
+    .no-results.visible { display: block; }
+    .no-results-icon { font-size: 48px; margin-bottom: 12px; opacity: .4; }
+    /* Charts */
+    .charts-intro {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+    .charts-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 14px;
+    }
+    .chart-card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      transition: border-color .2s, transform .15s;
+    }
+    .chart-card:hover { border-color: var(--gold); transform: translateY(-2px); }
+    .chart-card-inner { padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+    .chart-icon {
+      width: 36px;
+      height: 36px;
+      background: linear-gradient(135deg, #1e1000, #3a2500);
+      border: 1px solid #3a2d00;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+    }
+    .chart-title { font-size: 15px; font-weight: 600; color: var(--text); line-height: 1.3; }
+    .chart-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      color: var(--gold);
+      font-size: 12px;
+      font-weight: 500;
+      padding: 7px 14px;
+      text-decoration: none;
+      transition: all .2s;
+      align-self: flex-start;
+    }
+    .chart-link:hover { border-color: var(--gold); background: rgba(201,168,76,.08); }
+    /* Footer */
+    footer {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 24px;
+      border-top: 1px solid var(--border);
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-dim);
+      letter-spacing: 0.08em;
+    }
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--text-dim); }
+    @media (max-width: 640px) {
+      header, .controls-bar { padding-left: 16px; padding-right: 16px; }
+      main { padding: 20px 16px 60px; }
+      .report-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 400px) {
+      .report-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="header-title-block">
+      <div class="header-eyebrow">Unofficial Fan Data Hub</div>
+      <h1>BAND&#8209;<span>MAID</span><br>REPORTS</h1>
+    </div>
+    <div class="header-stats">
+      <div class="stat-pill">
+        <span class="num" id="stat-reports">—</span>
+        <span class="lbl">Reports</span>
+      </div>
+      <div class="stat-pill">
+        <span class="num" id="stat-categories">—</span>
+        <span class="lbl">Categories</span>
+      </div>
+      <div class="stat-pill">
+        <span class="num" id="stat-charts">—</span>
+        <span class="lbl">Charts</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="controls-bar">
+  <div class="controls-inner">
+    <div class="search-wrap">
+      <svg class="search-icon" width="14" height="14" viewBox="0 0 15 15" fill="none">
+        <path d="M10 6.5a3.5 3.5 0 11-7 0 3.5 3.5 0 017 0zm-.967 3.447 2.757 2.756a.5.5 0 01-.707.707L8.326 9.653A4.5 4.5 0 1110 6.5a4.48 4.48 0 01-.967 2.947z" fill="currentColor"/>
+      </svg>
+      <input id="search" type="search" placeholder="Search reports and descriptions…" autocomplete="off" />
+      <button id="search-clear" title="Clear">&#x2715;</button>
+    </div>
+    <div class="btn-group">
+      <button class="btn" id="btn-expand-all">Expand All</button>
+      <button class="btn" id="btn-collapse-all">Collapse All</button>
+    </div>
+    <span id="search-count"></span>
+  </div>
+</div>
+
+<main>
+  <div class="tab-nav">
+    <button class="tab-btn active" data-tab="reports">&#128196; Reports</button>
+    <button class="tab-btn" data-tab="charts">&#128202; Charts</button>
+  </div>
+
+  <div id="tab-reports" class="tab-panel active">
+    <div id="categories-container"></div>
+    <div class="no-results" id="no-results">
+      <div class="no-results-icon">&#128269;</div>
+      <div>No reports match your search.</div>
+    </div>
+  </div>
+
+  <div id="tab-charts" class="tab-panel">
+    <p class="charts-intro">Interactive Looker Studio charts — open in a new tab for full interactivity.</p>
+    <div class="charts-grid" id="charts-grid"></div>
+  </div>
+</main>
+
+<footer>BAND-MAID Unofficial Fan Data &nbsp;&middot;&nbsp; drivetimebm &nbsp;&middot;&nbsp; Data updated independently</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  var REPORTS_URL    = 'reports.json';
+  var CATEGORIES_URL = 'categories.json';
+  var CHARTS_URL     = 'https://drivetimebm.github.io/BAND-MAID_gpt/misc/charts.json';
+  var REPORTS_BASE   = 'Reports/';
+
+  var allReports    = [];
+  var allCategories = [];
+  var allCharts     = [];
+  var searchTimeout = null;
+
+  // ── Fetch ──────────────────────────────────────────────────────────
+  function init() {
+    Promise.all([
+      fetch(CATEGORIES_URL).then(function(r){ return r.json(); }),
+      fetch(REPORTS_URL).then(function(r){ return r.json(); }),
+      fetch(CHARTS_URL).then(function(r){ return r.json(); }).catch(function(){ return []; })
+    ]).then(function(results) {
+      allCategories = results[0];
+      allReports    = results[1];
+      allCharts     = results[2];
+
+      allCategories.sort(function(a,b){ return a.sortOrder - b.sortOrder; });
+
+      document.getElementById('stat-reports').textContent    = allReports.length;
+      document.getElementById('stat-categories').textContent = allCategories.length;
+      document.getElementById('stat-charts').textContent     = allCharts.length;
+
+      buildReports();
+      buildCharts();
+      bindControls();
+    }).catch(function(e){ console.error('Data load failed:', e); });
+  }
+
+  // ── Helpers ────────────────────────────────────────────────────────
+  function ext(filename) {
+    return (filename.split('.').pop() || '').toLowerCase();
+  }
+
+  function esc(s) {
+    return String(s)
+      .replace(/&/g,'&amp;')
+      .replace(/</g,'&lt;')
+      .replace(/>/g,'&gt;')
+      .replace(/"/g,'&quot;');
+  }
+
+  function highlight(text, query) {
+    if (!query) return esc(text);
+    var escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return esc(text).replace(new RegExp('(' + escaped + ')', 'gi'), '<mark>$1</mark>');
+  }
+
+  // ── Build reports ──────────────────────────────────────────────────
+  function buildReports() {
+    var container = document.getElementById('categories-container');
+    container.innerHTML = '';
+
+    allCategories.forEach(function(cat) {
+      var catReports = allReports.filter(function(r){ return r.categories.indexOf(cat.id) !== -1; });
+      catReports.sort(function(a,b){ return a.sortOrder - b.sortOrder; });
+      if (!catReports.length) return;
+
+      var section = document.createElement('div');
+      section.className = 'category-section';
+      section.dataset.catId = cat.id;
+
+      var header = document.createElement('div');
+      header.className = 'category-header';
+      header.setAttribute('role', 'button');
+      header.setAttribute('tabindex', '0');
+      header.setAttribute('aria-expanded', 'false');
+      header.innerHTML =
+        '<svg class="cat-chevron" viewBox="0 0 20 20" fill="currentColor">' +
+          '<path fill-rule="evenodd" d="M7.293 4.707a1 1 0 011.414 0l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414-1.414L11.586 10 7.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"/>' +
+        '</svg>' +
+        '<span class="cat-name">' + esc(cat.label) + '</span>' +
+        '<span class="cat-count" data-total="' + catReports.length + '">' + catReports.length + '</span>';
+
+      var body = document.createElement('div');
+      body.className = 'category-body';
+
+      var grid = document.createElement('div');
+      grid.className = 'report-grid';
+      grid.dataset.cat = cat.id;
+
+      catReports.forEach(function(report, idx) {
+        grid.appendChild(makeCard(report, idx + 1));
+      });
+
+      body.appendChild(grid);
+      section.appendChild(header);
+      section.appendChild(body);
+
+      header.addEventListener('click', function(){ toggleSection(section); });
+      header.addEventListener('keydown', function(e){
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleSection(section); }
+      });
+
+      container.appendChild(section);
+    });
+  }
+
+  function makeCard(report, num) {
+    var filename = report.filename;
+    var e = ext(filename);
+    var href = REPORTS_BASE + encodeURIComponent(filename);
+    var thumb = report.thumbnail || 'thumbnail.png';
+    var displayName = filename.replace(/\.[^.]+$/, '');
+    var desc = report.description || '';
+
+    var card = document.createElement('div');
+    card.className = 'report-card';
+    card.dataset.filename    = filename.toLowerCase();
+    card.dataset.description = desc.toLowerCase();
+    card.dataset.displayname = displayName.toLowerCase();
+    card.dataset.num         = num;
+
+    card.innerHTML =
+      '<img class="report-thumb" src="' + esc(thumb) + '" alt="" loading="lazy" onerror="this.src=\'thumbnail.png\'" />' +
+      '<div class="report-body">' +
+        '<div class="report-num">#' + num + '</div>' +
+        '<a class="report-name" href="' + esc(href) + '" target="_blank" rel="noopener">' + esc(displayName) + '</a>' +
+        '<div class="report-desc">' + esc(desc) + '</div>' +
+        '<span class="report-ext ext-' + e + '">' + e.toUpperCase() + '</span>' +
+      '</div>';
+
+    return card;
+  }
+
+  function toggleSection(section, forceOpen) {
+    var isOpen = section.classList.contains('open');
+    var shouldOpen = forceOpen !== undefined ? forceOpen : !isOpen;
+    section.classList.toggle('open', shouldOpen);
+    section.querySelector('.category-header').setAttribute('aria-expanded', String(shouldOpen));
+  }
+
+  // ── Search ─────────────────────────────────────────────────────────
+  function doSearch(rawQuery) {
+    var q = rawQuery.trim().toLowerCase();
+    var cards = document.querySelectorAll('.report-card');
+    var visibleTotal = 0;
+
+    cards.forEach(function(card) {
+      var match = !q ||
+        card.dataset.filename.indexOf(q) !== -1 ||
+        card.dataset.description.indexOf(q) !== -1 ||
+        card.dataset.displayname.indexOf(q) !== -1;
+
+      card.classList.toggle('hidden', !match);
+      if (match) {
+        visibleTotal++;
+        // Apply highlight
+        var nameEl = card.querySelector('.report-name');
+        var descEl = card.querySelector('.report-desc');
+        var displayName = nameEl.getAttribute('data-raw') || nameEl.textContent;
+        var descText    = descEl.getAttribute('data-raw')  || descEl.textContent;
+        // Store raw text first time
+        if (!nameEl.getAttribute('data-raw')) nameEl.setAttribute('data-raw', nameEl.textContent);
+        if (!descEl.getAttribute('data-raw'))  descEl.setAttribute('data-raw',  descEl.textContent);
+        nameEl.innerHTML = highlight(nameEl.getAttribute('data-raw'), rawQuery.trim());
+        descEl.innerHTML = highlight(descEl.getAttribute('data-raw'),  rawQuery.trim());
+      }
+    });
+
+    // Per-category visibility and counts
+    document.querySelectorAll('.category-section').forEach(function(section) {
+      var visible = section.querySelectorAll('.report-card:not(.hidden)').length;
+      var countEl = section.querySelector('.cat-count');
+      var total   = parseInt(countEl.dataset.total, 10);
+      countEl.textContent = q ? (visible + ' / ' + total) : total;
+      if (q) {
+        toggleSection(section, visible > 0);
+        section.style.display = visible > 0 ? '' : 'none';
+      } else {
+        section.style.display = '';
+      }
+    });
+
+    // Renumber visible cards within each section
+    document.querySelectorAll('.category-section').forEach(function(section) {
+      var visible = section.querySelectorAll('.report-card:not(.hidden)');
+      visible.forEach(function(card, i) {
+        var numEl = card.querySelector('.report-num');
+        if (numEl) numEl.textContent = '#' + (i + 1);
+      });
+    });
+
+    document.getElementById('no-results').classList.toggle('visible', visibleTotal === 0 && !!q);
+    document.getElementById('search-count').textContent = q ? (visibleTotal + ' result' + (visibleTotal !== 1 ? 's' : '')) : '';
+  }
+
+  // ── Build charts ───────────────────────────────────────────────────
+  function buildCharts() {
+    var grid = document.getElementById('charts-grid');
+    grid.innerHTML = '';
+    var icons = ['&#128200;','&#128202;','&#128172;','&#127925;','&#128201;','&#127919;'];
+
+    allCharts.forEach(function(chart, i) {
+      var card = document.createElement('div');
+      card.className = 'chart-card';
+      card.innerHTML =
+        '<div class="chart-card-inner">' +
+          '<div class="chart-icon">' + icons[i % icons.length] + '</div>' +
+          '<div class="chart-title">' + esc(chart.Description) + '</div>' +
+          '<a class="chart-link" href="' + esc(chart.URL) + '" target="_blank" rel="noopener">' +
+            'Open in Looker Studio ' +
+            '<svg width="11" height="11" viewBox="0 0 12 12" fill="none"><path d="M2 10L10 2M10 2H5M10 2v5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>' +
+          '</a>' +
+        '</div>';
+      grid.appendChild(card);
+    });
+  }
+
+  // ── Controls ───────────────────────────────────────────────────────
+  function bindControls() {
+    var searchEl = document.getElementById('search');
+    var clearBtn = document.getElementById('search-clear');
+
+    searchEl.addEventListener('input', function() {
+      var q = searchEl.value;
+      clearBtn.style.display = q ? 'block' : 'none';
+      clearTimeout(searchTimeout);
+      searchTimeout = setTimeout(function(){ doSearch(q); }, 160);
+    });
+
+    clearBtn.addEventListener('click', function() {
+      searchEl.value = '';
+      clearBtn.style.display = 'none';
+      doSearch('');
+      searchEl.focus();
+    });
+
+    document.getElementById('btn-expand-all').addEventListener('click', function() {
+      document.querySelectorAll('.category-section').forEach(function(s){ toggleSection(s, true); });
+    });
+
+    document.getElementById('btn-collapse-all').addEventListener('click', function() {
+      document.querySelectorAll('.category-section').forEach(function(s){ toggleSection(s, false); });
+    });
+
+    document.querySelectorAll('.tab-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        document.querySelectorAll('.tab-btn').forEach(function(b){ b.classList.remove('active'); });
+        document.querySelectorAll('.tab-panel').forEach(function(p){ p.classList.remove('active'); });
+        btn.classList.add('active');
+        document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+      });
+    });
+  }
+
+  init();
+}());
+</script>
+</body>
+</html>

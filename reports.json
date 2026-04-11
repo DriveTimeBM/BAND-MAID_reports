@@ -1,0 +1,2020 @@
+[
+  {
+    "filename": "YouTube YTD Summary.pdf",
+    "description": "Total Views since the beginning of the calendar year",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Views Per Day.pdf",
+    "description": "Videos listed by views/day over their lifetime",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Videos by Type.pdf",
+    "description": "Breakdown of YT videos by type (OMV, OLV, Audio, etc.)",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Videos by Type Summary.pdf",
+    "description": "Summary of YT videos by type (OMV, OLV, Audio, etc.)",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Videos by Song.pdf",
+    "description": "List of all YouTube videos for each song",
+    "categories": [
+      "youtube",
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Video Ids Query.txt",
+    "description": "All BAND-MAID YT video ids as a text file",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Top Like Pct.pdf",
+    "description": "YT videos ranked by like percentage",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Top Like Pct by Type.pdf",
+    "description": "YT videos ranked by like percentage and grouped by type",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Top Audio Likes Pct.pdf",
+    "description": "YT audio only videos ranked by like percentage",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Teaser Videos.pdf",
+    "description": "All YT teaser videos ranked by views",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Shorts Videos.pdf",
+    "description": "All YT shorts ranked by views",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Shorts Videos by Date.pdf",
+    "description": "All YT shorts by publish date",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Shorts by Song.pdf",
+    "description": "List of all YouTube Shorts by song",
+    "categories": [
+      "youtube",
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Shorts by Member.pdf",
+    "description": "All YT shorts grouped by member, ranked by views",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Releases by Year.pdf",
+    "description": "Summary of YouTube releases by year",
+    "categories": [
+      "youtube",
+      "releases"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Private Videos.pdf",
+    "description": "List of known YouTube videos no longer available",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube MV Comparison.pdf",
+    "description": "Compare the most recent OMV daily performance to the fastest to 1M views",
+    "categories": [
+      "youtube",
+      "million"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Million Groups.pdf",
+    "description": "YT videos over 1M views grouped by views range 1M, 2M, etc.",
+    "categories": [
+      "youtube",
+      "million"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Milestones.pdf",
+    "description": "All YT milestones for today. (Surpassing the next 100K mark)",
+    "categories": [
+      "youtube",
+      "million"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Locations.pdf",
+    "description": "YouTube 7 and 28 day City and Country data obtained daily",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Language Breakdown.pdf",
+    "description": "Percentage of Japanese comments in YouTube videos",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Delta by DoW.pdf",
+    "description": "YouTube views by day of week (Monday measures Sunday, etc.)",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Birthdays.pdf",
+    "description": "All YT videos release ordered by closeness to their anniversaries",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Audio Streams by Day.pdf",
+    "description": "Total YouTube Audio streams by day",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Audio Pre and Post R2R.pdf",
+    "description": "Audio views pre and post the release of Ready to Rock which boosted views",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Audio Aggregate Views.pdf",
+    "description": "Total audio-only streams for each song ranked by total views",
+    "categories": [
+      "youtube",
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Audio Aggregate Views by Delta.pdf",
+    "description": "Total audio-only streams for each song ranked by the day's change",
+    "categories": [
+      "youtube",
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Audio Aggregate Views by Album.pdf",
+    "description": "Total audio-only streams for each song grouped by album",
+    "categories": [
+      "youtube",
+      "albums"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Audio Aggregate Views Album Summary.pdf",
+    "description": "Summary of each album's audio-only streams",
+    "categories": [
+      "youtube",
+      "albums"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Audio Aggregate Likes.pdf",
+    "description": "Aggregated likes for audio-only tracks across all videos",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Audio Aggregate Daily Views by Album.pdf",
+    "description": "Daily change of audio streams by album",
+    "categories": [
+      "youtube",
+      "albums"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Audio Track Detail.pdf",
+    "description": "Audio track details grouped by song",
+    "categories": [
+      "youtube",
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Audio Tracks by Views per Day.pdf",
+    "description": "Audio track details sorted by views per day",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Anime Aggregate Views.pdf",
+    "description": "Aggregate total views of just the anime songs",
+    "categories": [
+      "youtube",
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Aggregate Views.pdf",
+    "description": "Aggregate total views for every song",
+    "categories": [
+      "youtube",
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Aggregate Views by Delta.pdf",
+    "description": "Aggregate total views for every song sorted by daily change",
+    "categories": [
+      "youtube",
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Aggregate Views by Album.pdf",
+    "description": "Aggregate total views by album",
+    "categories": [
+      "youtube",
+      "albums"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube Aggregate Likes.pdf",
+    "description": "Aggregate total likes of each song",
+    "categories": [
+      "youtube",
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "YouTube OMV vs OLV.pdf",
+    "description": "Relative performance of OLVs to OMVs for songs that have both",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "All YouTube Content by Views.pdf",
+    "description": "All YT content sorted by views",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "All YouTube Content by Views Per Day.pdf",
+    "description": "All YT content sorted by lifetime views per day",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "All YouTube Content by Release Date.pdf",
+    "description": "All YouTube content by release date",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "All YouTube Content by New Views.pdf",
+    "description": "All YT content sorted by yesterday's views",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "All YouTube Content by New Likes.pdf",
+    "description": "All YouTube videos sorted by number of likes",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "All YouTube Content by Name.pdf",
+    "description": "All YouTube videos sorted by name (video title)",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "All YouTube Content by Duration.pdf",
+    "description": "All YouTube videos sorted by video duration",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "All YouTube Content Grouped by Title.pdf",
+    "description": "All YT content grouped by title (aggregates views of duplicates)",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "All YouTube Live Content by Views.pdf",
+    "description": "All YT live content sorted by views",
+    "categories": [
+      "youtube",
+      "live"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "New YouTube Comments.pdf",
+    "description": "YouTube videos with new comments",
+    "categories": [
+      "youtube",
+      "comments"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Thrill Comments by Day.pdf",
+    "description": "Number of new comments on the Thrill OMV by day",
+    "categories": [
+      "youtube",
+      "comments"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Spotify Song Streams.pdf",
+    "description": "Number of song streams on Spotify. Each song updated once per week.",
+    "categories": [
+      "spotify"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Spotify Song Streams per Day.pdf",
+    "description": "Sorted by average streams per day for the previous week",
+    "categories": [
+      "spotify"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Spotify Song Streams per Day All Time.pdf",
+    "description": "Sorted by lifetime average streams per day",
+    "categories": [
+      "spotify"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Spotify Song Streams per Day Pct.pdf",
+    "description": "Sorted by current average streams per day as a percentage of historical streams per day",
+    "categories": [
+      "spotify"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Spotify Song Streams by Album.pdf",
+    "description": "Number of song streams on Spotify organized by album. Each song updated once per week.",
+    "categories": [
+      "spotify",
+      "albums"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Spotify Song Popularity.pdf",
+    "description": "**Obsolete as of 2026-03-09** Songs ranked by Spotify Popularity",
+    "categories": [
+      "spotify"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Spotify Next Million Projection.pdf",
+    "description": "(needs work) Projection for next million mark based on previous week's streams",
+    "categories": [
+      "spotify",
+      "million"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Spotify Monthly Listeners.pdf",
+    "description": "Spotify listeners by city/country",
+    "categories": [
+      "spotify"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Spotify Milestones.pdf",
+    "description": "List of all Spotify songs that cross 100K milestones for that day",
+    "categories": [
+      "spotify",
+      "million"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Spotify Album Popularity.pdf",
+    "description": "**Obsolete as of 2026-03-09** Albums ranked by Spotify Popularity",
+    "categories": [
+      "spotify",
+      "albums"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Spotify vs OMV.pdf",
+    "description": "Spotify performance on songs compared to their YouTube OMVs",
+    "categories": [
+      "spotify",
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Spotify vs YouTube Daily Audio Streams.pdf",
+    "description": "Sorted by relative performance of YouTube (audio only) daily streams vs. Spotify daily streams",
+    "categories": [
+      "spotify",
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Spotify vs YouTube Audio Streams.pdf",
+    "description": "Sorted by YouTube (audio only) total streams vs. Spotify total streams",
+    "categories": [
+      "spotify",
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Related Artists - **Obsolete as of  2026-03-09** Spotify.pdf",
+    "description": "Spotify stats for some peer bands",
+    "categories": [
+      "spotify"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "BilliBilli Videos.pdf",
+    "description": "Official MV releases on BiliBili",
+    "categories": [
+      "bilibili"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "BilliBilli Videos Delta.pdf",
+    "description": "Current day change in followers, views, likes, etc.",
+    "categories": [
+      "bilibili"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "BilliBilli Videos by Song.pdf",
+    "description": "BiliBili videos grouped and totaled by song",
+    "categories": [
+      "bilibili",
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Deezer Top Tracks.pdf",
+    "description": "Results of Deezer Top Tracks query",
+    "categories": [
+      "deezer"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Deezer Internal Rank.pdf",
+    "description": "Deezer song popularity rank",
+    "categories": [
+      "deezer"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Shazam Top Tracks.pdf",
+    "description": "Top tracks as reported by Shazam",
+    "categories": [
+      "shazam"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Apple Music Charts History.pdf",
+    "description": "Appearances of albums and songs on the Apple Music charts by country",
+    "categories": [
+      "applemusic"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Amazon Music Charts History.pdf",
+    "description": "Appearances of albums and songs on the Amazon Music charts by country",
+    "categories": [
+      "amazonmusic"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "LastFM Rank.pdf",
+    "description": "LastFM song rank",
+    "categories": [
+      "lastfm"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "CDJapan Monthly Rank.pdf",
+    "description": "History of BAND-MAID items in the CDJapan top 400 items for the month (from January 2015)",
+    "categories": [
+      "cdjapan"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "CDJapan Ranks by Product.pdf",
+    "description": "Products ranked by number of times appearing in the CDJapan monthly top 400",
+    "categories": [
+      "cdjapan"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "CDJapan Ranks by Album.pdf",
+    "description": "Albums ranked by number of times appearing in the CDJapan monthly top 400",
+    "categories": [
+      "cdjapan",
+      "albums"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "CDJapan Daily.pdf",
+    "description": "History of BAND-MAID items in the CDJapan top 20 items for the day (from January 2022)",
+    "categories": [
+      "cdjapan"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "CDJapan Daily Grouped.pdf",
+    "description": "History of BAND-MAID items in the CDJapan top 20 items for the day (from January 2022)",
+    "categories": [
+      "cdjapan"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "CDJapan Daily Grouped by Title.pdf",
+    "description": "History of BAND-MAID items in the CDJapan top 20 grouped by title (from January 2022)",
+    "categories": [
+      "cdjapan"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "CDJapan Yearly.pdf",
+    "description": "History of BAND-MAID items in the CDJapan yearly top 100 since 2022",
+    "categories": [
+      "cdjapan"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Songs Encyclopedia.pdf",
+    "description": "Lots of info about every BAND-MAID song",
+    "categories": [
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Songs by Release Date.pdf",
+    "description": "Chronological list of songs",
+    "categories": [
+      "songs",
+      "releases"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Songs by Most Times Played.pdf",
+    "description": "Songs ordered by most times played live with most recent performance",
+    "categories": [
+      "songs",
+      "live"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Songs by Most Recent Live Performance.pdf",
+    "description": "Songs by most recent live performance",
+    "categories": [
+      "songs",
+      "live"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Songs by Most Recent Live Debut.pdf",
+    "description": "All live debuts from most recent back",
+    "categories": [
+      "songs",
+      "live"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Songs by Alt Arrangements.pdf",
+    "description": "Arrangement combos",
+    "categories": [
+      "songs",
+      "arrangements"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Songs Played by Year.pdf",
+    "description": "Song live play counts grouped by year",
+    "categories": [
+      "songs",
+      "live"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Songs Played by Year Summary.pdf",
+    "description": "Number of different songs played by year",
+    "categories": [
+      "songs",
+      "live"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Songs Debuts by Venue.pdf",
+    "description": "Song debuts grouped by venue",
+    "categories": [
+      "songs",
+      "live"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Songs Debuted Live.pdf",
+    "description": "List of known songs that were played live prior to release",
+    "categories": [
+      "songs",
+      "live"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Songs With Acoustic Versions.pdf",
+    "description": "A list of songs with known acoustic versions grouped by album",
+    "categories": [
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Songs with Solos.pdf",
+    "description": "List of songs with solos. Subjective and somewhat arbitrary.",
+    "categories": [
+      "songs",
+      "solos"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Songs with No Solos.pdf",
+    "description": "List of songs without solos. Subjective and somewhat arbitrary.",
+    "categories": [
+      "songs",
+      "solos"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Songs With MVs.pdf",
+    "description": "List of songs with OMVs, OLVs, and both",
+    "categories": [
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Songs With Media Tie-Ins.pdf",
+    "description": "Songs used in anime, movies, TV, games, etc.",
+    "categories": [
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Songs with Bass Solos.pdf",
+    "description": "List of songs with bass solos. Subjective and somewhat arbitrary.",
+    "categories": [
+      "songs",
+      "solos"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Song Reaction Top Reactor Summary.pdf",
+    "description": "Top reactions per song grouped by reactor",
+    "categories": [
+      "songs",
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Song Reaction Summary.pdf",
+    "description": "Summary ordered by most reacted to songs",
+    "categories": [
+      "songs",
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Song Reaction Leaderboard.pdf",
+    "description": "Number of songs for each reaction channel where their reaction has the most views of all reactions to that song",
+    "categories": [
+      "songs",
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Song Name Analysis.pdf",
+    "description": "Songs grouped by first letter with stats for song name lengths",
+    "categories": [
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Song Names by Length.pdf",
+    "description": "Songs grouped by name length",
+    "categories": [
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Song Notes and Quotes Report.pdf",
+    "description": "Collection of band quotes organized by song",
+    "categories": [
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Song Durations.pdf",
+    "description": "Songs sorted by duration (from Spotify data)",
+    "categories": [
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Song Counts by Country.pdf",
+    "description": "Live song counts grouped by country",
+    "categories": [
+      "songs",
+      "live"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Music Credits by Song.pdf",
+    "description": "Music writing credits for each studio song",
+    "categories": [
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Lyricist Credits by Song.pdf",
+    "description": "Lyric writing credits for each studio song",
+    "categories": [
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Albums On Report.pdf",
+    "description": "A list of all releases and streams that each song is on",
+    "categories": [
+      "songs",
+      "albums"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Total Streams by Song.pdf",
+    "description": "Total streams of all content by song across YouTube, Spotify, and more",
+    "categories": [
+      "songs",
+      "spotify",
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Ready to Rock - 3 versions.pdf",
+    "description": "A look at the 4 versions in one report: MV, Anime MV, and Audio",
+    "categories": [
+      "songs",
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Unique Arrangements.pdf",
+    "description": "List of alternative song arrangements listed by arrangement type",
+    "categories": [
+      "arrangements"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Alternative Live Arrangements.pdf",
+    "description": "List of alternative song arrangements listed by song",
+    "categories": [
+      "arrangements",
+      "live"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Alternative Live Arrangements by Name.pdf",
+    "description": "List of alternative song arrangements listed by song name",
+    "categories": [
+      "arrangements",
+      "live"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Arrangement Credits by Song.pdf",
+    "description": "Arrangement credits for each studio song listed by arrangement count",
+    "categories": [
+      "arrangements",
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Live Videos.pdf",
+    "description": "Master list of live BAND-MAID videos grouped by event",
+    "categories": [
+      "live"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Live Videos by Views.pdf",
+    "description": "Master list of live BAND-MAID videos sorted by views",
+    "categories": [
+      "live"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Live FanCam Videos by Views.pdf",
+    "description": "Master list of live fancam videos sorted by views",
+    "categories": [
+      "live"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Live History of all Songs.pdf",
+    "description": "Each song with a chronological list of all live performances",
+    "categories": [
+      "live",
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Live Debuts by Venue.pdf",
+    "description": "All live debuts by venue's frequency of live debuts",
+    "categories": [
+      "live"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "OKYUJI by Venue.pdf",
+    "description": "All OKYUJI grouped by venue",
+    "categories": [
+      "live"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "All Setlists.pdf",
+    "description": "All BAND-MAID setlists",
+    "categories": [
+      "setlists",
+      "live"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Most Viewed Reactions.pdf",
+    "description": "Most watched BAND-MAID reaction videos of all-time",
+    "categories": [
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Most Popular Video By Reactor.pdf",
+    "description": "The most popular video for each reactor",
+    "categories": [
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Most Liked Reactions.pdf",
+    "description": "Reaction videos with the most likes",
+    "categories": [
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Most Commented Reactions.pdf",
+    "description": "BAND-MAID reaction video with the most comments",
+    "categories": [
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Top Reactions By Reactor sorted by views.pdf",
+    "description": "Grouped by reaction channel and sorted by views",
+    "categories": [
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Top Reaction Videos by Song.pdf",
+    "description": "Most viewed reaction videos for each song",
+    "categories": [
+      "reactions",
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Highest Reaction Views for Each Song.pdf",
+    "description": "Highest reaction views for each song",
+    "categories": [
+      "reactions",
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "All Reactions By Reactor sorted by views.pdf",
+    "description": "All reaction videos grouped by top reactors ordered by most views",
+    "categories": [
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "All Reactions By Reactor Chronological.pdf",
+    "description": "All reaction videos grouped by top reactors in chronological sequence",
+    "categories": [
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Chronological Reactions.pdf",
+    "description": "All reaction videos from the very first to the most recent",
+    "categories": [
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "First Time Reactions.pdf",
+    "description": "First time reactions to BAND-MAID listed chronologically",
+    "categories": [
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "First Time Reactions (Recent First).pdf",
+    "description": "First time reactions to BAND-MAID (newest first)",
+    "categories": [
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "New Reactors by Year Summary.pdf",
+    "description": "Number of new reactors by year",
+    "categories": [
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "New Reactors by Month.pdf",
+    "description": "New reactors in chronological order",
+    "categories": [
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "New Reactors by Month Summary.pdf",
+    "description": "Number of new reactors by month",
+    "categories": [
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Reaction Videos By Year.pdf",
+    "description": "Number of new reaction videos by year",
+    "categories": [
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Reaction Videos by Song.pdf",
+    "description": "Videos grouped by song and sorted by views",
+    "categories": [
+      "reactions",
+      "songs"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Reaction Videos by Channel.pdf",
+    "description": "Total reaction videos for each YT channel",
+    "categories": [
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Reaction Views by Channel.pdf",
+    "description": "Total reaction views for each YT channel",
+    "categories": [
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Reaction Avg Views by Channel.pdf",
+    "description": "Average reaction views for each YT channel",
+    "categories": [
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Reaction Video Statistics.pdf",
+    "description": "Total reaction channels, total reaction videos, and total reaction views",
+    "categories": [
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Reaction Playlists.pdf",
+    "description": "List of Haro Matsu's playlists on YouTube",
+    "categories": [
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Interview Videos.pdf",
+    "description": "All interview videos by views",
+    "categories": [
+      "interviews"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Interview Videos Chronological.pdf",
+    "description": "All interview videos by date",
+    "categories": [
+      "interviews"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Cover Videos.pdf",
+    "description": "All cover videos by date",
+    "categories": [
+      "covers"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Cover Videos by Views.pdf",
+    "description": "All cover videos by views",
+    "categories": [
+      "covers"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Sorter Aggregate Results.pdf",
+    "description": "Aggregated sorter results, updated upon submissions",
+    "categories": [
+      "sorter"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Sorter Results By Album.pdf",
+    "description": "Aggregated sorter results by album, updated upon submissions",
+    "categories": [
+      "sorter",
+      "albums"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Sorter Range.pdf",
+    "description": "The range of each song. [Worst] - [Best]",
+    "categories": [
+      "sorter"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Sorter Participants.pdf",
+    "description": "Check to see if your submission is included in the results",
+    "categories": [
+      "sorter"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Sorter Non-Album Aggregate Results.pdf",
+    "description": "Aggregated sorter results for songs not (yet) on an album",
+    "categories": [
+      "sorter"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Sorter No Solo Aggregate Results.pdf",
+    "description": "Aggregated sorter results for songs with no guitar solo (list of songs with no solo is subjective)",
+    "categories": [
+      "sorter",
+      "solos"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Sorter Miku Aggregate Results.pdf",
+    "description": "Aggregated sorter results for songs with Kobato Miku as the sole lead singer",
+    "categories": [
+      "sorter"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Sorter Instrumental Aggregate Results.pdf",
+    "description": "Aggregated sorter results for instrumentals, updated upon submissions",
+    "categories": [
+      "sorter"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Sorter Crosstab.pdf",
+    "description": "Crosstab look at sorter data. Songs as rows. Sorter participants as columns.",
+    "categories": [
+      "sorter"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Sorter Anime Aggregate Results.pdf",
+    "description": "Aggregated sorter results for anime songs, updated upon submissions",
+    "categories": [
+      "sorter"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "bandmaid_song_sorter.html",
+    "description": "BAND-MAID song sorter/ranker",
+    "categories": [
+      "sorter"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Wikipedia Pages.pdf",
+    "description": "All BAND-MAID Wikipedia pages (all languages)",
+    "categories": [
+      "wikipedia"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Wikipedia Monthly BAND-MAID Pageviews.pdf",
+    "description": "Total lookups by month across all languages",
+    "categories": [
+      "wikipedia"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Wikipedia by Day.pdf",
+    "description": "Day by day accounting of BAND-MAID lookups for Japanese, English, and Chinese Wikipedia",
+    "categories": [
+      "wikipedia"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Wikipedia Top Years JA.pdf",
+    "description": "Yearly Wikipedia lookups for Japanese Wikipedia",
+    "categories": [
+      "wikipedia"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Wikipedia Top Years EN.pdf",
+    "description": "Yearly Wikipedia lookups for English Wikipedia",
+    "categories": [
+      "wikipedia"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Wikipedia Top Months.pdf",
+    "description": "Monthly Wikipedia lookups for all Wikipedia ranked by top months",
+    "categories": [
+      "wikipedia"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Wikipedia Top Months ZH.pdf",
+    "description": "Monthly Wikipedia lookups for Chinese Wikipedia ranked by top months",
+    "categories": [
+      "wikipedia"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Wikipedia Top Months JA.pdf",
+    "description": "Monthly Wikipedia lookups for Japanese Wikipedia ranked by top months",
+    "categories": [
+      "wikipedia"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Wikipedia Top Months EN.pdf",
+    "description": "Monthly Wikipedia lookups for English Wikipedia ranked by top months",
+    "categories": [
+      "wikipedia"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Top Wikipedia Days ZH.pdf",
+    "description": "Top BAND-MAID days for the Chinese Wikipedia",
+    "categories": [
+      "wikipedia"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Top Wikipedia Days JA.pdf",
+    "description": "Top BAND-MAID days for the Japanese Wikipedia",
+    "categories": [
+      "wikipedia"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Top Wikipedia Days EN.pdf",
+    "description": "Top BAND-MAID days for the English Wikipedia",
+    "categories": [
+      "wikipedia"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Radio Plays.pdf",
+    "description": "Detail listing of known radio plays",
+    "categories": [
+      "radio"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Total Radio Plays Country.pdf",
+    "description": "Summary of known radio plays by country",
+    "categories": [
+      "radio"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Radio Plays Country.pdf",
+    "description": "Radio plays by country",
+    "categories": [
+      "radio"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Radio Plays by City - Totals.pdf",
+    "description": "Radio plays organized by country/city",
+    "categories": [
+      "radio"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Prime Detail.pdf",
+    "description": "Track/section listings for BAND-MAID Prime videos for okyuji, talks, BTS or other videos with sections",
+    "categories": [
+      "prime"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Prime Self-Covers.pdf",
+    "description": "All Prime self-covers grouped by song and sorted by member",
+    "categories": [
+      "prime",
+      "covers"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Prime Self-Covers by Song.pdf",
+    "description": "All Prime self-covers grouped by member and sorted by song",
+    "categories": [
+      "prime",
+      "covers"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Band-Maid Prime.pdf",
+    "description": "BAND-MAID Prime videos with links organized by category",
+    "categories": [
+      "prime"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Band-Maid FanClub.pdf",
+    "description": "Easily searchable and sorted list of all fan club (OMEISYUSAMA) videos",
+    "categories": [
+      "fanclub"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Band-Maid Gallery.pdf",
+    "description": "Easily searchable and sorted list of all fan club (OMEISYUSAMA) photo galleries",
+    "categories": [
+      "fanclub"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Translations.pdf",
+    "description": "Translations of various articles, videos, etc.",
+    "categories": [
+      "translations"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Translations Index.pdf",
+    "description": "List of translations with links grouped by media type and sorted by date",
+    "categories": [
+      "translations"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Pirated YouTube Videos.pdf",
+    "description": "Playlist of 'pirated' videos on YouTube maintained by @Alex_8964. Not independently verified.",
+    "categories": [
+      "pirated"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Pirated YouTube Videos with Links.pdf",
+    "description": "Playlist of 'pirated' videos on YouTube with links maintained by @Alex_8964. Not independently verified.",
+    "categories": [
+      "pirated"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Pirated Curated YouTube Videos with Links.pdf",
+    "description": "Curated list of active pirated videos",
+    "categories": [
+      "pirated"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "MAIDIT Takedowns.pdf",
+    "description": "List of all known videos removed by MAIDIT for copyright infringement",
+    "categories": [
+      "pirated"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Next Million.txt",
+    "description": "Closest song to next million updated 6 times per day",
+    "categories": [
+      "million"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Next Million Projection.pdf",
+    "description": "Projection of the next video to reach a million milestone, updated every hour on the half hour",
+    "categories": [
+      "million"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Most Liked Videos.pdf",
+    "description": "All BAND-MAID videos listed by like count",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Most Commented Videos.pdf",
+    "description": "All BAND-MAID videos listed by comment count",
+    "categories": [
+      "youtube",
+      "comments"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Comment_VRAINS.pdf",
+    "description": "Comments from BAND-MAID videos referencing the VRAINS anime",
+    "categories": [
+      "comments"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Comment_ShaunTrack.pdf",
+    "description": "Comments from BAND-MAID videos referencing the Spanish reactor ShaunTrack",
+    "categories": [
+      "comments"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Comment_Peacemaker.pdf",
+    "description": "Comments from BAND-MAID videos referencing the HBO Max series Peacemaker",
+    "categories": [
+      "comments"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Comment_Modesty.pdf",
+    "description": "Comments from BAND-MAID videos referencing the anime Rock is a Lady's Modesty",
+    "categories": [
+      "comments"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Comment_Kate.pdf",
+    "description": "Comments from BAND-MAID videos referencing the Netflix movie Kate",
+    "categories": [
+      "comments"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "yTAQ5dCpuiM.pdf",
+    "description": "Daily YT stats for the Dilly-Dally OLV (benefitted from ad campaign)",
+    "categories": [
+      "videostats"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "https://img.youtube.com/vi/yTAQ5dCpuiM/mqdefault.jpg"
+  },
+  {
+    "filename": "2U9AP21jXuk.pdf",
+    "description": "Daily YT stats for the Present Perfect OLV (benefitted from ad campaign)",
+    "categories": [
+      "videostats"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "https://img.youtube.com/vi/2U9AP21jXuk/mqdefault.jpg"
+  },
+  {
+    "filename": "XHuBR4nAjrE.pdf",
+    "description": "Day by day views for the Zen audio track",
+    "categories": [
+      "videostats"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "https://img.youtube.com/vi/XHuBR4nAjrE/mqdefault.jpg"
+  },
+  {
+    "filename": "vu2D3lzH7Y0.pdf",
+    "description": "Day by day views for the What is justice? audio track",
+    "categories": [
+      "videostats"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "https://img.youtube.com/vi/vu2D3lzH7Y0/mqdefault.jpg"
+  },
+  {
+    "filename": "rZ1mpH8iXQc.pdf",
+    "description": "Daily YT stats for the Alive-or-Dead audio track",
+    "categories": [
+      "videostats"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "https://img.youtube.com/vi/rZ1mpH8iXQc/mqdefault.jpg"
+  },
+  {
+    "filename": "JegJ6cSsUgg.pdf",
+    "description": "Daily YT stats for the Ready to Rock Special Anime OMV",
+    "categories": [
+      "videostats"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "https://img.youtube.com/vi/JegJ6cSsUgg/mqdefault.jpg"
+  },
+  {
+    "filename": "eapNDHKbu0M.pdf",
+    "description": "Daily YT stats for the Ready to Rock OMV",
+    "categories": [
+      "videostats"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "https://img.youtube.com/vi/eapNDHKbu0M/mqdefault.jpg"
+  },
+  {
+    "filename": "5uOdE0j4h1E.pdf",
+    "description": "Daily YT stats for the Ready to Rock audio track",
+    "categories": [
+      "videostats"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "https://img.youtube.com/vi/5uOdE0j4h1E/mqdefault.jpg"
+  },
+  {
+    "filename": "3kMIh0_Wkpk.pdf",
+    "description": "Daily YT stats for the What is justice? OMV",
+    "categories": [
+      "videostats"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "https://img.youtube.com/vi/3kMIh0_Wkpk/mqdefault.jpg"
+  },
+  {
+    "filename": "yzSdgw-tdr0.pdf",
+    "description": "Daily YT stats for the Present Perfect OMV",
+    "categories": [
+      "videostats"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "https://img.youtube.com/vi/yzSdgw-tdr0/mqdefault.jpg"
+  },
+  {
+    "filename": "BandMaid Streaming Metrics.pdf",
+    "description": "Daily summary of metrics from YouTube, Spotify, and LastFM",
+    "categories": [
+      "youtube",
+      "spotify",
+      "lastfm"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Top Google Trends.pdf",
+    "description": "Top days for Google searches of BAND-MAID. (100 is top day. Other numbers are relative to the top day)",
+    "categories": [
+      "misc"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Google Trends Region Summary.pdf",
+    "description": "Summary of BAND-MAID Google trends across regions",
+    "categories": [
+      "misc"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Social Media.pdf",
+    "description": "Follower counts on various social media platforms. Updated on Mondays only.",
+    "categories": [
+      "misc"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Calendar.pdf",
+    "description": "Upcoming shows and events",
+    "categories": [
+      "misc"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Band-Maid News.pdf",
+    "description": "Organized list with links of all BAND-MAID news releases from the official website",
+    "categories": [
+      "misc"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "White Room Videos.pdf",
+    "description": "All BAND-MAID songs with 'white room videos'",
+    "categories": [
+      "misc"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Other Videos.pdf",
+    "description": "Other videos such as anime OP videos, etc.",
+    "categories": [
+      "misc"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Compilation Videos.pdf",
+    "description": "All compilation videos by views",
+    "categories": [
+      "misc"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "cluppo YouTube.pdf",
+    "description": "Summary of all Cluppo YT videos",
+    "categories": [
+      "misc"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "JohnPJohnson YouTube Comments.pdf",
+    "description": "All level 1 posts with links from the bizarre fan turned troll account",
+    "categories": [
+      "misc",
+      "comments"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "ReactionVideoIds.txt",
+    "description": "Text file containing all BAND-MAID reaction video IDs",
+    "categories": [
+      "reactions"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  },
+  {
+    "filename": "Release Notes and Quotes Report.pdf",
+    "description": "Collection of band quotes organized by release",
+    "categories": [
+      "releases"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "thumbnail.png"
+  }
+]
