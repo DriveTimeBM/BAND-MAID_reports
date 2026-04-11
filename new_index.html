@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.7.76/pdf.min.js"></script>
-  <script src="pdf-preview.js" defer></script>
+  <script src="pdf-preview.js"></script>
   <style>
     :root {
       --bg:         #0d0d0f;
@@ -72,12 +72,13 @@
     }
     h1 {
       font-family: var(--font-head);
-      font-size: clamp(52px, 8vw, 96px);
-      line-height: 0.9;
-      letter-spacing: 0.02em;
+      font-size: clamp(38px, 5.5vw, 72px);
+      line-height: 1;
+      letter-spacing: 0.04em;
       color: var(--text);
+      white-space: nowrap;
     }
-    h1 span { color: var(--accent); }
+    h1 .accent { color: var(--accent); }
     .header-stats { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; }
     .stat-pill {
       display: flex;
@@ -352,7 +353,14 @@
       transition: border-color .2s, transform .15s;
     }
     .chart-card:hover { border-color: var(--gold); transform: translateY(-2px); }
-    .chart-card-inner { padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+    .chart-thumb {
+      width: 100%;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      display: block;
+      background: var(--bg3);
+    }
+        .chart-card-inner { padding: 14px 20px 20px; display: flex; flex-direction: column; gap: 12px; }
     .chart-icon {
       width: 36px;
       height: 36px;
@@ -413,7 +421,7 @@
   <div class="header-inner">
     <div class="header-title-block">
       <div class="header-eyebrow">Unofficial Fan Data Hub</div>
-      <h1>BAND&#8209;<span>MAID</span><br>REPORTS</h1>
+      <h1><span class="accent">BAND</span>&#8209;<span class="accent">MAID</span> REPORTS</h1>
     </div>
     <div class="header-stats">
       <div class="stat-pill">
@@ -675,9 +683,14 @@
     allCharts.forEach(function(chart, i) {
       var card = document.createElement('div');
       card.className = 'chart-card';
+      var thumb = chart.thumbnail || chart.Thumbnail || '';
+      var topHtml = thumb
+        ? '<img class="chart-thumb" src="' + esc(thumb) + '" alt="" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />' +
+          '<div class="chart-icon" style="display:none">' + icons[i % icons.length] + '</div>'
+        : '<div class="chart-icon">' + icons[i % icons.length] + '</div>';
       card.innerHTML =
+        topHtml +
         '<div class="chart-card-inner">' +
-          '<div class="chart-icon">' + icons[i % icons.length] + '</div>' +
           '<div class="chart-title">' + esc(chart.Description) + '</div>' +
           '<a class="chart-link" href="' + esc(chart.URL) + '" target="_blank" rel="noopener">' +
             'Open in Looker Studio ' +
