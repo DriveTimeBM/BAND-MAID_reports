@@ -237,7 +237,7 @@
       "youtube",
       "songs"
     ],
-    "sortOrder": 100,
+    "sortOrder": 10,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
@@ -247,7 +247,7 @@
       "youtube",
       "songs"
     ],
-    "sortOrder": 100,
+    "sortOrder": 15,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
@@ -257,7 +257,7 @@
       "youtube",
       "albums"
     ],
-    "sortOrder": 100,
+    "sortOrder": 20,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
@@ -267,7 +267,7 @@
       "youtube",
       "albums"
     ],
-    "sortOrder": 100,
+    "sortOrder": 25,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
@@ -276,7 +276,7 @@
     "categories": [
       "youtube"
     ],
-    "sortOrder": 100,
+    "sortOrder": 30,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
@@ -286,7 +286,7 @@
       "youtube",
       "albums"
     ],
-    "sortOrder": 100,
+    "sortOrder": 35,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
@@ -296,7 +296,7 @@
       "youtube",
       "songs"
     ],
-    "sortOrder": 100,
+    "sortOrder": 18,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
@@ -305,7 +305,7 @@
     "categories": [
       "youtube"
     ],
-    "sortOrder": 100,
+    "sortOrder": 30,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
@@ -315,7 +315,7 @@
       "youtube",
       "songs"
     ],
-    "sortOrder": 100,
+    "sortOrder": 28,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
@@ -325,7 +325,7 @@
       "youtube",
       "songs"
     ],
-    "sortOrder": 100,
+    "sortOrder": 23,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
@@ -335,7 +335,7 @@
       "youtube",
       "songs"
     ],
-    "sortOrder": 100,
+    "sortOrder": 24,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
@@ -345,7 +345,7 @@
       "youtube",
       "albums"
     ],
-    "sortOrder": 100,
+    "sortOrder": 25,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
@@ -355,7 +355,7 @@
       "youtube",
       "songs"
     ],
-    "sortOrder": 100,
+    "sortOrder": 40,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
@@ -364,7 +364,7 @@
     "categories": [
       "youtube"
     ],
-    "sortOrder": 100,
+    "sortOrder": 32,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
@@ -373,7 +373,7 @@
     "categories": [
       "youtube"
     ],
-    "sortOrder": 100,
+    "sortOrder": 21,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
@@ -391,7 +391,7 @@
     "categories": [
       "youtube"
     ],
-    "sortOrder": 100,
+    "sortOrder": 37,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
@@ -400,7 +400,7 @@
     "categories": [
       "youtube"
     ],
-    "sortOrder": 100,
+    "sortOrder": 23,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
@@ -409,7 +409,7 @@
     "categories": [
       "youtube"
     ],
-    "sortOrder": 100,
+    "sortOrder": 37,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
@@ -418,7 +418,7 @@
     "categories": [
       "youtube"
     ],
-    "sortOrder": 100,
+    "sortOrder": 40,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
@@ -446,7 +446,7 @@
       "youtube",
       "live"
     ],
-    "sortOrder": 100,
+    "sortOrder": 50,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
@@ -456,7 +456,7 @@
       "youtube",
       "comments"
     ],
-    "sortOrder": 100,
+    "sortOrder": 75,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
@@ -466,7 +466,7 @@
       "youtube",
       "comments"
     ],
-    "sortOrder": 100,
+    "sortOrder": 200,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
@@ -475,7 +475,7 @@
     "categories": [
       "spotify"
     ],
-    "sortOrder": 100,
+    "sortOrder": 1,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/spotify.png"
   },
   {
@@ -512,7 +512,7 @@
       "spotify",
       "albums"
     ],
-    "sortOrder": 100,
+    "sortOrder": 10,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -540,7 +540,7 @@
     "categories": [
       "spotify"
     ],
-    "sortOrder": 100,
+    "sortOrder": 40,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/spotify.png"
   },
   {
@@ -550,7 +550,7 @@
       "spotify",
       "million"
     ],
-    "sortOrder": 100,
+    "sortOrder": 70,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/spotify.png"
   },
   {
@@ -570,7 +570,7 @@
       "spotify",
       "youtube"
     ],
-    "sortOrder": 100,
+    "sortOrder": 80,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -580,7 +580,7 @@
       "spotify",
       "youtube"
     ],
-    "sortOrder": 100,
+    "sortOrder": 81,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -590,7 +590,7 @@
       "spotify",
       "youtube"
     ],
-    "sortOrder": 100,
+    "sortOrder": 82,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -617,7 +617,7 @@
     "categories": [
       "bilibili"
     ],
-    "sortOrder": 100,
+    "sortOrder": 110,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -627,7 +627,7 @@
       "bilibili",
       "songs"
     ],
-    "sortOrder": 100,
+    "sortOrder": 120,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -636,7 +636,7 @@
     "categories": [
       "deezer"
     ],
-    "sortOrder": 100,
+    "sortOrder": 110,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -699,7 +699,7 @@
     "categories": [
       "cdjapan"
     ],
-    "sortOrder": 100,
+    "sortOrder": 120,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -709,7 +709,7 @@
       "cdjapan",
       "albums"
     ],
-    "sortOrder": 100,
+    "sortOrder": 130,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -718,7 +718,7 @@
     "categories": [
       "cdjapan"
     ],
-    "sortOrder": 100,
+    "sortOrder": 80,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -754,7 +754,7 @@
     "categories": [
       "songs"
     ],
-    "sortOrder": 100,
+    "sortOrder": 10,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -764,7 +764,7 @@
       "songs",
       "releases"
     ],
-    "sortOrder": 100,
+    "sortOrder": 20,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -774,7 +774,7 @@
       "songs",
       "live"
     ],
-    "sortOrder": 100,
+    "sortOrder": 30,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -784,7 +784,7 @@
       "songs",
       "live"
     ],
-    "sortOrder": 100,
+    "sortOrder": 40,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -794,7 +794,7 @@
       "songs",
       "live"
     ],
-    "sortOrder": 100,
+    "sortOrder": 50,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -804,7 +804,7 @@
       "songs",
       "arrangements"
     ],
-    "sortOrder": 100,
+    "sortOrder": 60,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -814,7 +814,7 @@
       "songs",
       "live"
     ],
-    "sortOrder": 100,
+    "sortOrder": 90,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -824,7 +824,7 @@
       "songs",
       "live"
     ],
-    "sortOrder": 100,
+    "sortOrder": 91,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -863,7 +863,7 @@
       "songs",
       "solos"
     ],
-    "sortOrder": 100,
+    "sortOrder": 112,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -873,7 +873,7 @@
       "songs",
       "solos"
     ],
-    "sortOrder": 100,
+    "sortOrder": 113,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -901,7 +901,7 @@
       "songs",
       "solos"
     ],
-    "sortOrder": 100,
+    "sortOrder": 114,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -911,7 +911,7 @@
       "songs",
       "reactions"
     ],
-    "sortOrder": 100,
+    "sortOrder": 200,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -921,7 +921,7 @@
       "songs",
       "reactions"
     ],
-    "sortOrder": 100,
+    "sortOrder": 200,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -931,7 +931,7 @@
       "songs",
       "reactions"
     ],
-    "sortOrder": 100,
+    "sortOrder": 202,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -940,7 +940,7 @@
     "categories": [
       "songs"
     ],
-    "sortOrder": 100,
+    "sortOrder": 150,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -949,7 +949,7 @@
     "categories": [
       "songs"
     ],
-    "sortOrder": 100,
+    "sortOrder": 151,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -958,7 +958,7 @@
     "categories": [
       "songs"
     ],
-    "sortOrder": 100,
+    "sortOrder": 37,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -967,7 +967,7 @@
     "categories": [
       "songs"
     ],
-    "sortOrder": 100,
+    "sortOrder": 98,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -977,7 +977,7 @@
       "songs",
       "live"
     ],
-    "sortOrder": 100,
+    "sortOrder": 200,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -986,7 +986,7 @@
     "categories": [
       "songs"
     ],
-    "sortOrder": 100,
+    "sortOrder": 15,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -995,7 +995,7 @@
     "categories": [
       "songs"
     ],
-    "sortOrder": 100,
+    "sortOrder": 16,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -1005,7 +1005,7 @@
       "songs",
       "albums"
     ],
-    "sortOrder": 100,
+    "sortOrder": 25,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -1016,7 +1016,7 @@
       "spotify",
       "youtube"
     ],
-    "sortOrder": 100,
+    "sortOrder": 45,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -1026,7 +1026,7 @@
       "songs",
       "youtube"
     ],
-    "sortOrder": 100,
+    "sortOrder": 170,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -1035,7 +1035,7 @@
     "categories": [
       "arrangements"
     ],
-    "sortOrder": 100,
+    "sortOrder": 60,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -1045,7 +1045,7 @@
       "arrangements",
       "live"
     ],
-    "sortOrder": 100,
+    "sortOrder": 61,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -1055,7 +1055,7 @@
       "arrangements",
       "live"
     ],
-    "sortOrder": 100,
+    "sortOrder": 62,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -1065,7 +1065,7 @@
       "arrangements",
       "songs"
     ],
-    "sortOrder": 100,
+    "sortOrder": 63,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -1118,6 +1118,7 @@
     "filename": "OKYUJI by Venue.pdf",
     "description": "All OKYUJI grouped by venue",
     "categories": [
+      "setlists",
       "live"
     ],
     "sortOrder": 100,
@@ -1139,7 +1140,7 @@
     "categories": [
       "reactions"
     ],
-    "sortOrder": 100,
+    "sortOrder": 1,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -1148,7 +1149,7 @@
     "categories": [
       "reactions"
     ],
-    "sortOrder": 100,
+    "sortOrder": 20,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -1175,7 +1176,7 @@
     "categories": [
       "reactions"
     ],
-    "sortOrder": 100,
+    "sortOrder": 30,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -1185,7 +1186,7 @@
       "reactions",
       "songs"
     ],
-    "sortOrder": 100,
+    "sortOrder": 25,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -1195,7 +1196,7 @@
       "reactions",
       "songs"
     ],
-    "sortOrder": 100,
+    "sortOrder": 15,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -1204,7 +1205,7 @@
     "categories": [
       "reactions"
     ],
-    "sortOrder": 100,
+    "sortOrder": 40,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -1213,7 +1214,7 @@
     "categories": [
       "reactions"
     ],
-    "sortOrder": 100,
+    "sortOrder": 7,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -1231,7 +1232,7 @@
     "categories": [
       "reactions"
     ],
-    "sortOrder": 100,
+    "sortOrder": 9,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -1240,7 +1241,7 @@
     "categories": [
       "reactions"
     ],
-    "sortOrder": 100,
+    "sortOrder": 8,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -1286,7 +1287,7 @@
       "reactions",
       "songs"
     ],
-    "sortOrder": 100,
+    "sortOrder": 60,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -1295,7 +1296,7 @@
     "categories": [
       "reactions"
     ],
-    "sortOrder": 100,
+    "sortOrder": 80,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -1304,7 +1305,7 @@
     "categories": [
       "reactions"
     ],
-    "sortOrder": 100,
+    "sortOrder": 60,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -1313,7 +1314,7 @@
     "categories": [
       "reactions"
     ],
-    "sortOrder": 100,
+    "sortOrder": 61,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -1322,7 +1323,7 @@
     "categories": [
       "reactions"
     ],
-    "sortOrder": 100,
+    "sortOrder": 3,
     "thumbnail": "thumbnail.png"
   },
   {
@@ -1331,7 +1332,7 @@
     "categories": [
       "reactions"
     ],
-    "sortOrder": 100,
+    "sortOrder": 700,
     "thumbnail": "thumbnail.png"
   },
   {
