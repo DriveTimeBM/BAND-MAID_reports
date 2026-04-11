@@ -1378,7 +1378,7 @@
       "sorter"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://drivetimebm.github.io/BAND-MAID_gpt/misc/sorter.png"
   },
   {
     "filename": "Sorter Results By Album.pdf",
@@ -1388,7 +1388,7 @@
       "albums"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://drivetimebm.github.io/BAND-MAID_gpt/misc/sorter.png"
   },
   {
     "filename": "Sorter Range.pdf",
@@ -1397,7 +1397,7 @@
       "sorter"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://drivetimebm.github.io/BAND-MAID_gpt/misc/sorter.png"
   },
   {
     "filename": "Sorter Participants.pdf",
@@ -1406,7 +1406,7 @@
       "sorter"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://drivetimebm.github.io/BAND-MAID_gpt/misc/sorter.png"
   },
   {
     "filename": "Sorter Non-Album Aggregate Results.pdf",
@@ -1415,7 +1415,7 @@
       "sorter"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://drivetimebm.github.io/BAND-MAID_gpt/misc/sorter.png"
   },
   {
     "filename": "Sorter No Solo Aggregate Results.pdf",
@@ -1425,7 +1425,7 @@
       "solos"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://drivetimebm.github.io/BAND-MAID_gpt/misc/sorter.png"
   },
   {
     "filename": "Sorter Miku Aggregate Results.pdf",
@@ -1434,7 +1434,7 @@
       "sorter"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://drivetimebm.github.io/BAND-MAID_gpt/misc/sorter.png"
   },
   {
     "filename": "Sorter Instrumental Aggregate Results.pdf",
@@ -1443,7 +1443,7 @@
       "sorter"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://drivetimebm.github.io/BAND-MAID_gpt/misc/sorter.png"
   },
   {
     "filename": "Sorter Crosstab.pdf",
@@ -1452,7 +1452,7 @@
       "sorter"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://drivetimebm.github.io/BAND-MAID_gpt/misc/sorter.png"
   },
   {
     "filename": "Sorter Anime Aggregate Results.pdf",
@@ -1461,16 +1461,7 @@
       "sorter"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
-  },
-  {
-    "filename": "bandmaid_song_sorter.html",
-    "description": "BAND-MAID song sorter/ranker",
-    "categories": [
-      "sorter"
-    ],
-    "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://drivetimebm.github.io/BAND-MAID_gpt/misc/sorter.png"
   },
   {
     "filename": "Wikipedia Pages.pdf",
