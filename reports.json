@@ -571,7 +571,7 @@
       "youtube"
     ],
     "sortOrder": 80,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Spotify vs YouTube Daily Audio Streams.pdf",
@@ -581,7 +581,7 @@
       "youtube"
     ],
     "sortOrder": 81,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Spotify vs YouTube Audio Streams.pdf",
@@ -591,7 +591,7 @@
       "youtube"
     ],
     "sortOrder": 82,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Related Artists - **Obsolete as of  2026-03-09** Spotify.pdf",
@@ -600,7 +600,7 @@
       "spotify"
     ],
     "sortOrder": 900,
-    "thumbnail": "thumbnail.pnghttps://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/spotify.png"
+    "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/spotify.png"
   },
   {
     "filename": "BilliBilli Videos.pdf",
@@ -682,7 +682,7 @@
       "lastfm"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "CDJapan Monthly Rank.pdf",
@@ -755,7 +755,7 @@
       "songs"
     ],
     "sortOrder": 10,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Songs by Release Date.pdf",
@@ -765,7 +765,7 @@
       "releases"
     ],
     "sortOrder": 20,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Songs by Most Times Played.pdf",
@@ -795,7 +795,7 @@
       "live"
     ],
     "sortOrder": 50,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Songs by Alt Arrangements.pdf",
@@ -805,7 +805,7 @@
       "arrangements"
     ],
     "sortOrder": 60,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Songs Played by Year.pdf",
@@ -815,7 +815,7 @@
       "live"
     ],
     "sortOrder": 90,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Songs Played by Year Summary.pdf",
@@ -825,7 +825,7 @@
       "live"
     ],
     "sortOrder": 91,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Songs Debuts by Venue.pdf",
@@ -835,7 +835,7 @@
       "live"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Songs Debuted Live.pdf",
@@ -883,7 +883,7 @@
       "songs"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Songs With Media Tie-Ins.pdf",
@@ -892,7 +892,7 @@
       "songs"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Songs with Bass Solos.pdf",
@@ -912,7 +912,7 @@
       "reactions"
     ],
     "sortOrder": 200,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Song Reaction Summary.pdf",
@@ -922,7 +922,7 @@
       "reactions"
     ],
     "sortOrder": 200,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Song Reaction Leaderboard.pdf",
@@ -932,7 +932,7 @@
       "reactions"
     ],
     "sortOrder": 202,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Song Name Analysis.pdf",
@@ -941,7 +941,7 @@
       "songs"
     ],
     "sortOrder": 150,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Song Names by Length.pdf",
@@ -950,7 +950,7 @@
       "songs"
     ],
     "sortOrder": 151,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Song Notes and Quotes Report.pdf",
@@ -959,7 +959,7 @@
       "songs"
     ],
     "sortOrder": 37,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Song Durations.pdf",
@@ -968,7 +968,7 @@
       "songs"
     ],
     "sortOrder": 98,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Song Counts by Country.pdf",
@@ -987,7 +987,7 @@
       "songs"
     ],
     "sortOrder": 15,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Lyricist Credits by Song.pdf",
@@ -996,7 +996,7 @@
       "songs"
     ],
     "sortOrder": 16,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Albums On Report.pdf",
@@ -1006,7 +1006,7 @@
       "albums"
     ],
     "sortOrder": 25,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Total Streams by Song.pdf",
@@ -1017,7 +1017,7 @@
       "youtube"
     ],
     "sortOrder": 45,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Ready to Rock - 3 versions.pdf",
@@ -1036,7 +1036,7 @@
       "arrangements"
     ],
     "sortOrder": 60,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Alternative Live Arrangements.pdf",
@@ -1066,7 +1066,7 @@
       "songs"
     ],
     "sortOrder": 63,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Live Videos.pdf",
@@ -1342,7 +1342,7 @@
       "interviews"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Interview Videos Chronological.pdf",
@@ -1351,7 +1351,7 @@
       "interviews"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Cover Videos.pdf",
@@ -1360,7 +1360,7 @@
       "covers"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Cover Videos by Views.pdf",
@@ -1369,7 +1369,7 @@
       "covers"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Sorter Aggregate Results.pdf",
@@ -1578,7 +1578,7 @@
       "radio"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Total Radio Plays Country.pdf",
@@ -1587,7 +1587,7 @@
       "radio"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Radio Plays Country.pdf",
@@ -1596,7 +1596,7 @@
       "radio"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Radio Plays by City - Totals.pdf",
@@ -1605,7 +1605,7 @@
       "radio"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Prime Detail.pdf",
@@ -1761,7 +1761,7 @@
       "comments"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Comment_ShaunTrack.pdf",
@@ -1770,7 +1770,7 @@
       "comments"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Comment_Peacemaker.pdf",
@@ -1779,7 +1779,7 @@
       "comments"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Comment_Modesty.pdf",
@@ -1788,7 +1788,7 @@
       "comments"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Comment_Kate.pdf",
@@ -1797,7 +1797,7 @@
       "comments"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "yTAQ5dCpuiM.pdf",
@@ -1898,7 +1898,7 @@
       "lastfm"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Top Google Trends.pdf",
@@ -1925,7 +1925,7 @@
       "misc"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Calendar.pdf",
@@ -1934,7 +1934,7 @@
       "misc"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Band-Maid News.pdf",
@@ -1943,7 +1943,7 @@
       "misc"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "White Room Videos.pdf",
@@ -1952,7 +1952,7 @@
       "misc"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Other Videos.pdf",
@@ -1961,7 +1961,7 @@
       "misc"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Compilation Videos.pdf",
@@ -1970,7 +1970,7 @@
       "misc"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "cluppo YouTube.pdf",
@@ -1998,7 +1998,7 @@
       "reactions"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   },
   {
     "filename": "Release Notes and Quotes Report.pdf",
@@ -2007,6 +2007,6 @@
       "releases"
     ],
     "sortOrder": 100,
-    "thumbnail": "thumbnail.png"
+    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
   }
 ]
