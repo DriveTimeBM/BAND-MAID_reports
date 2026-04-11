@@ -464,6 +464,7 @@
   </div>
 
   <div id="tab-reports" class="tab-panel active">
+    <div id="load-status" style="padding:40px 0;text-align:center;font-family:var(--font-mono);font-size:13px;color:var(--text-muted);">Loading&#8230;</div>
     <div id="categories-container"></div>
     <div class="no-results" id="no-results">
       <div class="no-results-icon">&#128269;</div>
@@ -494,11 +495,27 @@
   var searchTimeout = null;
 
   // ── Fetch ──────────────────────────────────────────────────────────
+  function setStatus(msg, isError) {
+    var el = document.getElementById('load-status');
+    if (!el) return;
+    el.style.color = isError ? 'var(--accent)' : 'var(--text-muted)';
+    el.innerHTML = msg;
+    el.style.display = msg ? '' : 'none';
+  }
+
+  function fetchJson(url) {
+    return fetch(url).then(function(r) {
+      if (!r.ok) throw new Error(url + ' returned ' + r.status);
+      return r.json();
+    });
+  }
+
   function init() {
+    setStatus('Loading&#8230;');
     Promise.all([
-      fetch(CATEGORIES_URL).then(function(r){ return r.json(); }),
-      fetch(REPORTS_URL).then(function(r){ return r.json(); }),
-      fetch(CHARTS_URL).then(function(r){ return r.json(); }).catch(function(){ return []; })
+      fetchJson(CATEGORIES_URL),
+      fetchJson(REPORTS_URL),
+      fetchJson(CHARTS_URL).catch(function(e){ console.warn('Charts failed:', e); return []; })
     ]).then(function(results) {
       allCategories = results[0];
       allReports    = results[1];
@@ -510,10 +527,14 @@
       document.getElementById('stat-categories').textContent = allCategories.length;
       document.getElementById('stat-charts').textContent     = allCharts.length;
 
+      setStatus('');
       buildReports();
       buildCharts();
       bindControls();
-    }).catch(function(e){ console.error('Data load failed:', e); });
+    }).catch(function(e) {
+      console.error('Data load failed:', e);
+      setStatus('&#9888; Failed to load data: ' + e.message + '<br><small>Make sure reports.json and categories.json are in the same folder as index.html, and the page is served over HTTP (not opened as a local file).</small>', true);
+    });
   }
 
   // ── Helpers ────────────────────────────────────────────────────────
