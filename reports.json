@@ -1578,7 +1578,7 @@
       "radio"
     ],
     "sortOrder": 100,
-    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
+    "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/radio.webp"
   },
   {
     "filename": "Total Radio Plays Country.pdf",
@@ -1587,7 +1587,7 @@
       "radio"
     ],
     "sortOrder": 100,
-    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
+    "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/radio.webp"
   },
   {
     "filename": "Radio Plays Country.pdf",
@@ -1596,7 +1596,7 @@
       "radio"
     ],
     "sortOrder": 100,
-    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
+    "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/radio.webp"
   },
   {
     "filename": "Radio Plays by City - Totals.pdf",
@@ -1605,7 +1605,7 @@
       "radio"
     ],
     "sortOrder": 100,
-    "thumbnail": "https://bandmaid.tokyo/assets/bandmaid/ogp.png"
+    "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/radio.webp"
   },
   {
     "filename": "Prime Detail.pdf",
@@ -1985,7 +1985,6 @@
     "filename": "JohnPJohnson YouTube Comments.pdf",
     "description": "All level 1 posts with links from the bizarre fan turned troll account",
     "categories": [
-      "misc",
       "comments"
     ],
     "sortOrder": 100,
