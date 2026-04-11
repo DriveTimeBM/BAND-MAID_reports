@@ -705,19 +705,41 @@
       var card = document.createElement('div');
       card.className = 'chart-card';
       var thumb = chart.thumbnail || chart.Thumbnail || '';
-      var topHtml = thumb
-        ? '<img class="chart-thumb" src="' + esc(thumb) + '" alt="" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />' +
-          '<div class="chart-icon" style="display:none">' + icons[i % icons.length] + '</div>'
-        : '<div class="chart-icon">' + icons[i % icons.length] + '</div>';
-      card.innerHTML =
-        topHtml +
-        '<div class="chart-card-inner">' +
-          '<div class="chart-title">' + esc(chart.Description) + '</div>' +
-          '<a class="chart-link" href="' + esc(chart.URL) + '" target="_blank" rel="noopener">' +
-            'Open in Looker Studio ' +
-            '<svg width="11" height="11" viewBox="0 0 12 12" fill="none"><path d="M2 10L10 2M10 2H5M10 2v5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>' +
-          '</a>' +
-        '</div>';
+
+      if (thumb) {
+        var img = document.createElement('img');
+        img.className = 'chart-thumb';
+        img.src = thumb;
+        img.alt = '';
+        img.loading = 'lazy';
+        img.onerror = function() {
+          this.style.display = 'none';
+          this.nextElementSibling.style.display = 'flex';
+        };
+        card.appendChild(img);
+        var iconDiv = document.createElement('div');
+        iconDiv.className = 'chart-icon';
+        iconDiv.style.display = 'none';
+        iconDiv.innerHTML = icons[i % icons.length];
+        card.appendChild(iconDiv);
+      } else {
+        var iconDiv2 = document.createElement('div');
+        iconDiv2.className = 'chart-icon';
+        iconDiv2.innerHTML = icons[i % icons.length];
+        card.appendChild(iconDiv2);
+      }
+
+      var inner = document.createElement('div');
+      inner.className = 'chart-card-inner';
+      inner.innerHTML =
+        '<div class="chart-title">' + esc(chart.Description) + '</div>' +
+        '<a class="chart-link" href="' + esc(chart.URL) + '" target="_blank" rel="noopener">' +
+          'Open in Looker Studio ' +
+          '<svg width="11" height="11" viewBox="0 0 12 12" fill="none">' +
+            '<path d="M2 10L10 2M10 2H5M10 2v5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>' +
+          '</svg>' +
+        '</a>';
+      card.appendChild(inner);
       grid.appendChild(card);
     });
   }
@@ -759,7 +781,11 @@
     });
   }
 
-  init();
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
 }());
 </script>
 </body>
