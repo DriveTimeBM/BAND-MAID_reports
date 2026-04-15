@@ -91,7 +91,6 @@ Songs with Bass Solos.pdf List of songs with bass solos. Subjective and somewhat
 Songs Played by Year.pdf Song live play counts grouped by year 
 Songs Played by Year Summary.pdf Number of different songs played by year 
 Songs Encyclopedia.pdf Lots of info about every Band-Maid song
-Songs Debuts by Venue.pdf Song debuts grouped by venue
 Songs Debuted Live.pdf List of known songs that were played live prior to release 
 Songs by Release Date.pdf Cronological list of songs
 Songs by Most Recent Live Performance.pdf

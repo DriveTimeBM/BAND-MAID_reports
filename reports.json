@@ -828,16 +828,6 @@
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/WD_member_quilt.png"
   },
   {
-    "filename": "Songs Debuts by Venue.pdf",
-    "description": "Song debuts grouped by venue",
-    "categories": [
-      "songs",
-      "live"
-    ],
-    "sortOrder": 100,
-    "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/WD_member_quilt.png"
-  },
-  {
     "filename": "Songs Debuted Live.pdf",
     "description": "List of known songs that were played live prior to release",
     "categories": [
