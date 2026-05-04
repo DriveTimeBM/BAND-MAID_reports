@@ -1,8 +1,1 @@
-﻿**Choose me** projected to top 2 million views (US EST). **174.4** hours from now at 🕙 
-
-📅 **Sunday 2026/05/10 09:45**
-Localized: <t:1778420730:f>
-    which would be 2,776.91 total days from release.
-▶️ Current views: **1,990,305**
-Current Rate per 24 hours: 1,334
-🔗 URL: <https://youtu.be/Imq5n_Cmd4o>
+﻿YouTube API call failrd.
