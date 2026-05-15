@@ -186,6 +186,15 @@
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
+    "filename": "YouTube Location Trend.pdf",
+    "description": "YouTube 7 and 28 day City and Country data compared to averages since April 7, 2026",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 101,
+    "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
+  },
+  {
     "filename": "YouTube Language Breakdown.pdf",
     "description": "Percentage of Japanese comments in YouTube videos",
     "categories": [
