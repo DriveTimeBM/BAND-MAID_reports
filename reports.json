@@ -544,6 +544,24 @@
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/spotify.png"
   },
   {
+    "filename": "Spotify Monthly Listeners Crosstab.pdf.pdf",
+    "description": "Spotify listeners by city/country summarized crosstab",
+    "categories": [
+      "spotify"
+    ],
+    "sortOrder": 39,
+    "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/spotify.png"
+  },
+  {
+    "filename": "Spotify Monthly Listeners Summary.pdf",
+    "description": "Spotify listeners by city/country summarized listing",
+    "categories": [
+      "spotify"
+    ],
+    "sortOrder": 41,
+    "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/spotify.png"
+  },
+  {
     "filename": "Spotify Monthly Listeners.pdf",
     "description": "Spotify listeners by city/country",
     "categories": [
