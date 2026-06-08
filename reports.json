@@ -1826,8 +1826,17 @@
     "thumbnail": "https://img.youtube.com/vi/MysGjRS9jFU/sddefault.jpg"
   },
   {
+    "filename": "_NTozqcillo.pdf",
+    "description": "Daily YT stats for the Toi et Moi OLV (benefitted from ad campaign)",
+    "categories": [
+      "videostats"
+    ],
+    "sortOrder": 100,
+    "thumbnail": "https://img.youtube.com/vi/_NTozqcillo/mqdefault.jpg"
+  },
+  {
     "filename": "yTAQ5dCpuiM.pdf",
-    "description": "Daily YT stats for the Dilly-Dally OLV (benefitted from ad campaign)",
+    "description": "Daily YT stats for the Dilly-Dally OLV",
     "categories": [
       "videostats"
     ],
