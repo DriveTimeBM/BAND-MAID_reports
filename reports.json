@@ -413,6 +413,15 @@
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
   },
   {
+    "filename": "All YouTube OLVs by New Views.pdf",
+    "description": "All YT Official Live Videos sorted by yesterday's views",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 23,
+    "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/misc/youtube.png"
+  },
+  {
     "filename": "All YouTube Content by New Likes.pdf",
     "description": "All YouTube videos sorted by number of likes",
     "categories": [
