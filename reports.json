@@ -278,6 +278,15 @@
     ],
     "sortOrder": 25,
     "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/album_covers/Art/album_pile8.png"
+  },  
+  {
+    "filename": "YouTube Audio Aggregate No MV Views.pdf",
+    "description": "Total audio-only streams for each song ranked by total views for songs that do not have an official music video or official live video",
+    "categories": [
+      "youtube"
+    ],
+    "sortOrder": 28,
+    "thumbnail": "https://raw.githubusercontent.com/DriveTimeBM/BAND-MAID_creations/main/album_covers/04%20yolo.png"
   },
   {
     "filename": "YouTube Audio Aggregate Likes.pdf",
